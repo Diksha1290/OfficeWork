@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/basic_padding_double">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageViewCompass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_arrow" />
+
+        <com.mikhaellopez.circularprogressbar.CircularProgressBar
+            android:id="@+id/circularProgressCompass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+        <!--<com.github.lzyzsd.circleprogress.DonutProgress
+            android:id="@+id/arc_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:donut_finished_color="@color/background_deepGrey"
+            app:donut_finished_stroke_width="9dp"
+            app:donut_inner_bottom_text_size="@dimen/text_small"
+            app:donut_max="360"
+            app:donut_text_color="@color/background_deepGrey"
+            app:donut_unfinished_color="@color/alpha_cream_white" />-->
+    </FrameLayout>
+</LinearLayout>

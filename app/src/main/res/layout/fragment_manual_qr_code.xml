@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="@dimen/basic_padding">
+
+    <ImageView
+        android:id="@+id/imgViewQRCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/layoutNoConnectivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/basic_padding"
+        android:visibility="gone">
+
+        <TextView
+            style="@style/Text_Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="false"
+            android:text="@string/noInternet"
+            android:textStyle="italic|bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_internet" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtViewTitle"
+        style="@style/Text_NormalNew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:singleLine="false"
+        android:text="@string/textQRCodeHelp"
+       />
+
+    <ImageView
+        android:id="@+id/imgViewBarCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/txtViewBarCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgViewBarCode"
+        android:gravity="center_horizontal"
+        android:textColor="@color/Black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtViewBarCode"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            style="@style/Text_Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="false"
+            android:text="@string/broadcast"
+            android:textStyle="italic|bold" />
+
+        <ImageView
+            android:id="@+id/txtViewBroadcast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/basic_padding"
+            android:src="@drawable/ic_broadcast" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtViewNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtViewFooter"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:padding="@dimen/basic_padding"
+        android:text="@string/textNote"
+        android:textColor="@color/RedColor" />
+
+    <TextView
+        android:id="@+id/txtViewFooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:padding="@dimen/basic_padding"
+        android:text="@string/textFooter"
+        android:textColor="@color/background_deepGrey" />
+
+</RelativeLayout>

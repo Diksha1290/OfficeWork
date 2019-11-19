@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">10.129.10.238</domain>
+        <domain includeSubdomains="true">frank-mobile-api.pdev.veridic.local</domain>
+        <domain includeSubdomains="true"> frankapp-im-api.product.veridic.local</domain>
+        <domain includeSubdomains="true">officework-app-api.product.veridic.local</domain>
+        <domain includeSubdomains="true">office-work-api.pdev.veridic.local</domain>
+
+
+
+    </domain-config>
+</network-security-config>

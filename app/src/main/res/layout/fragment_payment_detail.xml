@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragments.PaymentDetailFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:id="@+id/llayt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:orientation="vertical"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent">
+
+        </LinearLayout>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_below="@+id/llayt"
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="705dp"
+            android:layout_marginEnd="3dp"
+            android:background="@color/grayy"
+            android:elevation="@dimen/_15dp"
+            card_view:cardCornerRadius="5dp"
+            card_view:cardMaxElevation="@dimen/_20dp"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toBottomOf="@+id/llayt">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/grayy"
+                android:orientation="horizontal"
+                android:padding="1dp"
+                android:weightSum="100">
+
+
+                <TextView
+                    android:id="@+id/order_id_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="35"
+                    android:padding="@dimen/_10dp"
+                    android:text="@string/payment_amount"
+                    android:textColor="@color/Black"
+                    android:textSize="@dimen/about_us"
+
+                    />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/gray_color" />
+
+                <TextView
+                    android:id="@+id/order_amount"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="40"
+                    android:padding="@dimen/_10dp"
+                    android:text="$450"
+                    android:textColor="@color/Black"
+                    android:textSize="@dimen/about_us"
+                    android:textStyle="bold"
+
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <ProgressBar
+            android:id="@+id/progressBarMediuma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:elevation="@dimen/_21sdp"
+            android:layout_below="@+id/card_view"
+            android:visibility="gone"
+
+            />
+
+        <LinearLayout
+            android:layout_below="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toBottomOf="@+id/card_view"
+            card_view:layout_constraintVertical_bias="0.0">
+            <LinearLayout
+                android:id="@+id/fieldsLyt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+            <LinearLayout
+                android:layout_below="@+id/fieldsLyt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+                android:gravity="center_horizontal|bottom"
+                android:padding="@dimen/_15dp"
+                android:visibility="gone"
+                android:orientation="horizontal"
+                android:id="@+id/btnlyt"
+                >
+                <Button
+                    android:id="@+id/submit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginRight="@dimen/_20dp"
+
+                    android:background="@drawable/green_bg"
+                    android:text="@string/textNext"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+                <Button
+                    android:id="@+id/cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="@dimen/_20dp"
+                    android:background="@drawable/gray_bg"
+                    android:text="@string/Back"
+                    android:textAllCaps="false"
+                    android:textColor="@color/Black" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

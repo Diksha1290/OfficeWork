@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:scrollbars="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/flashlayout"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txta"
+        style="@style/Widget.TextViewHeadingNormalText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/_30dp"
+        android:layout_marginTop="@dimen/_30dp"
+        android:layout_marginRight="@dimen/_30dp"
+        android:gravity="center_horizontal"
+        android:text="@string/flashlightTest"
+        android:textSize="@dimen/about_us" />
+
+    <com.officework.customViews.IconView
+        android:id="@+id/flashimg"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_30dp"
+        android:visibility="visible"
+        app:srcCompat="@drawable/flashimg" />
+
+    <!--<com.megammr.customViews.CustomButton-->
+    <!--android:id="@+id/flashbtn"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="10dp"-->
+    <!--android:background="@color/app_blue_color"-->
+    <!--android:padding="10dp"-->
+    <!--android:text="@string/txtStart"-->
+    <!--android:textColor="@color/White"-->
+    <!--android:layout_gravity="center"/>-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/flashtestqstn"-->
+    <!--android:id="@+id/flashtxt"-->
+    <!--android:visibility="invisible"-->
+    <!--android:layout_marginTop="@dimen/_30dp"-->
+    <!--android:layout_gravity="center"/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <com.officework.customViews.CustomButton
+            android:id="@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_30dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="@string/Yes"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:visibility="invisible" />
+
+        <com.officework.customViews.CustomButton
+            android:id="@+id/no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_30dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="@string/No"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:visibility="invisible" />
+
+
+    </LinearLayout>
+
+    <com.officework.customViews.CustomButton
+        android:id="@+id/flashbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="60dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/txtStart"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/aboutmain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.98">
+
+            <TextView
+                android:id="@+id/webViewAboutUs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:paddingBottom="@dimen/basic_padding"
+                android:paddingLeft="@dimen/basic_padding"
+                android:text="@string/aboutus_des"
+                android:paddingRight="@dimen/basic_padding"
+                android:paddingTop="@dimen/basic_padding"
+                android:textColor="@color/Black"
+                android:textSize="@dimen/about_us" />
+
+        </ScrollView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.02"
+            android:background="@color/app_blue_color"
+            android:orientation="vertical"
+            android:id="@+id/aboutlayout">
+
+            <TextView
+                style="@style/Widget.TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="false"
+                android:text="@string/txtFurtherDetail"
+                android:textColor="@color/white"
+                android:textSize="@dimen/about_us" />
+
+            <TextView
+                android:id="@+id/txtFurtherDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textColorLink="@color/white"
+                android:textSize="@dimen/about_us" />
+
+            <!--<TextView-->
+                <!--style="@style/Widget.TextView"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center"-->
+                <!--android:singleLine="false"-->
+                <!--android:text="@string/txtProductionDetail"-->
+                <!--android:textColor="@color/White"-->
+                <!--android:textSize="16sp" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/txtProductionDetail"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:autoLink="web"-->
+                <!--android:gravity="center"-->
+                <!--android:textColorLink="#FF261FEA"-->
+                <!--android:textSize="16sp" />-->
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

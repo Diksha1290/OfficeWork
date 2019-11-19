@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.officework.customViews.FloatLabeledEditText
+        style="@style/TextInputLayout"
+        android:layout_width="match_parent"
+        android:id="@+id/field_prent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/field_child"
+            style="@style/TextCustomerInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="50"
+            android:maxLines="1" />
+    </com.officework.customViews.FloatLabeledEditText>
+</LinearLayout>

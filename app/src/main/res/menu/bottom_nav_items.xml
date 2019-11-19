@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_system"
+        app:showAsAction="always|withText"
+        android:icon="@drawable/ic_btm_nav_system"
+        android:title="@string/txtTabNamesSystem" />
+    <item
+        android:id="@+id/menu_hardware"
+        android:icon="@drawable/ic_btm_nav_hardware"
+        android:title="@string/txtTabNamesHardware"
+        app:showAsAction="always|withText"/>
+
+
+    <item
+        android:id="@+id/menu_battery"
+        app:showAsAction="always|withText"
+        android:icon="@drawable/ic_btm_nav_battery"
+        android:title="@string/txtTabNamesBattery" />
+    <item
+        android:id="@+id/menu_network"
+        app:showAsAction="always|withText"
+        android:icon="@drawable/ic_btm_nav_network"
+        android:title="@string/txtTabNamesNetwork" />
+    <item
+        android:id="@+id/menu_camera"
+        app:showAsAction="always|withText"
+        android:icon="@drawable/ic_btm_nav_camera"
+        android:title="@string/txtTabNamesCamera" />
+</menu>

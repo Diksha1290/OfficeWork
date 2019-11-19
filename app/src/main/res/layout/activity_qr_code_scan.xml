@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <me.dm7.barcodescanner.zxing.ZXingScannerView
+        android:id="@+id/zxscan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <ImageView
+        android:id="@+id/btn_flash"
+        android:layout_marginBottom="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ball"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!--<SurfaceView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:id="@+id/qrcodesurfaceview"-->
+        <!--/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/qrtext"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:text=""-->
+        <!--android:textColor="#ffff" />-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="@dimen/_300dp"-->
+        <!--android:layout_height="@dimen/_350dp"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:background="@drawable/qrcodescannersquare"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<View-->
+            <!--android:id="@+id/qrcodeline"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0.7dp"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:background="#a40404" />-->
+    <!--</LinearLayout>-->
+
+
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_10dp">
+
+
+    <ProgressBar
+        android:id="@+id/progressBarMediumaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+
+    <com.officework.customViews.GilroyExtraboldTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/non_tradele"
+        android:textColor="@color/app_blue_color"
+        android:layout_marginTop="50dp"
+        android:id="@+id/txt1"
+        android:textSize="@dimen/_14sdp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/non_tradele_desc"
+        android:layout_marginTop="@dimen/_20dp"
+        android:id="@+id/txt2"
+        android:layout_below="@+id/txt1"
+
+
+        android:textSize="@dimen/_12sdp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/support_text"
+        android:id="@+id/txt3"
+        android:layout_below="@+id/txt2"
+
+        android:layout_marginTop="@dimen/_10dp"
+        android:textSize="@dimen/_12sdp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="support@veridic.in"
+        android:clickable="true"
+        android:autoLink="email"
+        android:id="@+id/txt4"
+        android:layout_below="@+id/txt3"
+
+        android:inputType="textEmailAddress"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/_12sdp"/>
+
+
+    <RelativeLayout
+        android:id="@+id/txt5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        >
+
+        <CheckBox
+            android:id="@+id/checkbox_verify"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_above="@+id/rel_btn"
+
+            android:layout_marginBottom="@dimen/_20sdp" />
+
+        <TextView
+            android:id="@+id/txt_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_toRightOf="@id/checkbox_verify"
+            android:text="@string/txt_confirmation1"
+            android:textSize="@dimen/_12sdp" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

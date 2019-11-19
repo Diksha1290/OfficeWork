@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="_30dp">25dp</dimen>
+    <dimen name="_sp">14sp</dimen>
+    <dimen name="_300dp">200dp</dimen>
+    <dimen name="_350dp">262.5dp</dimen> />
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/fingerprintlayout">
+
+
+        <com.officework.customViews.IconView
+            android:layout_marginTop="98dp"
+            android:id="@+id/fingerimgid"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/fingerprint"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_marginTop="@dimen/_30dp"
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fingerprintsensortest"
+            android:gravity="center"
+            style="@style/Widget.TextViewHeadingNormalText"
+            android:textSize="@dimen/about_us"
+            />
+
+        <TextView
+            android:layout_marginTop="@dimen/_30dp"
+            android:id="@+id/txt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/placefinger"
+            android:gravity="center"
+            style="@style/Widget.TextViewHeadingNormalText"
+            android:textSize="@dimen/about_us"
+            />
+
+
+</LinearLayout>

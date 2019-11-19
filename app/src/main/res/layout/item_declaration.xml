@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/rel_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8dp"
+        android:background="@drawable/outside_border"
+        >
+
+        <com.officework.customViews.IconView
+            android:id="@+id/icon_memory"
+            android:layout_width="@dimen/_30itemdp"
+            android:layout_height="@dimen/_30itemdp"
+            android:layout_marginTop="@dimen/_10sdp"
+           />
+
+        <TextView
+            android:id="@+id/txt_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_toRightOf="@id/icon_memory"
+            android:textSize="@dimen/_12dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/icon_check"
+            android:layout_width="@dimen/verifytradbletext"
+            android:layout_height="@dimen/verifytradbletext"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            app:srcCompat="@drawable/ic_icon_check_grey" />
+
+        <TextView
+            android:id="@+id/txt_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_heading"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_toLeftOf="@id/icon_check"
+            android:layout_toRightOf="@id/icon_memory"
+            android:textSize="@dimen/_12dp" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

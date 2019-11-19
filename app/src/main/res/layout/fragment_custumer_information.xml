@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/rel_btn"
+        android:id="@+id/scrollView"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ProgressBar
+                android:id="@+id/progressBarMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:visibility="gone" />
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/linearLayout_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.officework.customViews.FloatLabeledEditText
+                    android:id="@+id/txtEmail"
+                    style="@style/TextInputLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/Email"
+                        style="@style/TextCustomerInfo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLength="30"
+                        android:drawableLeft="@drawable/ic_icon_email"
+                        android:hint="@string/email"
+                        android:inputType="text"
+                        android:maxLines="1" />
+
+                </com.officework.customViews.FloatLabeledEditText>
+
+                <com.officework.customViews.FloatLabeledEditText
+                    style="@style/TextInputLayout"
+                    android:layout_width="match_parent"
+                    android:id="@+id/txtconfirmEmail"
+                    android:longClickable="false"
+                    android:layout_height="wrap_content">
+
+                    <com.officework.utils.NoMenuEditText
+                        android:id="@+id/ConfirmEmail"
+                        style="@style/TextCustomerInfo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLength="30"
+                        android:longClickable="false"
+
+                        android:drawableLeft="@drawable/ic_icon_email"
+                        android:hint="@string/txt_confirm_email"
+                        android:inputType="textNoSuggestions"
+                        android:maxLines="1" />
+
+                </com.officework.customViews.FloatLabeledEditText>
+
+
+                <com.officework.customViews.FloatLabeledEditText
+                    style="@style/TextInputLayout"
+                    android:id="@+id/txtfirstnamee"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/first_name"
+                        style="@style/TextCustomerInfo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_icon_name"
+                        android:hint="@string/txt_first_name"
+                        android:maxLength="30"
+                        android:inputType="text"
+                        android:maxLines="1" />
+
+                </com.officework.customViews.FloatLabeledEditText>
+
+                <com.officework.customViews.FloatLabeledEditText
+                    style="@style/TextInputLayout"
+                    android:id="@+id/txtlastnamee"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/last_name"
+                        style="@style/TextCustomerInfo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_icon_name"
+                        android:hint="@string/last_name"
+                        android:maxLength="30"
+                        android:inputType="text"
+                        android:maxLines="1" />
+
+                </com.officework.customViews.FloatLabeledEditText>
+
+                <com.officework.customViews.FloatLabeledEditText
+                    style="@style/TextInputLayout"
+                    android:id="@+id/txtcontactnumbere"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/contact_no"
+                        style="@style/TextCustomerInfo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_icon_contact"
+                        android:hint="Contact Number*"
+                        android:inputType="number"
+                        android:maxLength="15"
+                        android:maxLines="1" />
+
+                </com.officework.customViews.FloatLabeledEditText>
+
+
+                <com.officework.customViews.FloatLabeledEditText
+                    style="@style/TextInputLayout"
+                    android:layout_width="match_parent"
+                    android:id="@+id/txtadreessss"
+
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/address_one"
+                        style="@style/TextCustomerInfo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLength="50"
+                        android:drawableLeft="@drawable/ic_icon_address"
+                        android:hint="@string/txt_address_line_1"
+                        android:maxLines="1" />
+
+                </com.officework.customViews.FloatLabeledEditText>
+
+                <com.officework.customViews.FloatLabeledEditText
+                    style="@style/TextInputLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/address_two"
+                        style="@style/TextCustomerInfo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLength="50"
+                        android:drawableLeft="@drawable/ic_icon_address"
+                        android:hint="@string/txt_address_line_2"
+                        android:maxLines="1"
+
+                        />
+
+                </com.officework.customViews.FloatLabeledEditText>
+
+                <com.officework.customViews.FloatLabeledEditText
+                    style="@style/TextInputLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    >
+
+                    <EditText
+                        android:id="@+id/address_three"
+                        style="@style/TextCustomerInfo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLength="50"
+                        android:drawableLeft="@drawable/ic_icon_address"
+                        android:hint="@string/txt_address_line_3"
+                        android:maxLines="1" />
+
+                </com.officework.customViews.FloatLabeledEditText>
+
+
+                <com.officework.customViews.FloatLabeledEditText
+                    style="@style/TextInputLayout"
+                    android:layout_width="match_parent"
+                    android:id="@+id/txtcity"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/city"
+                        style="@style/TextCustomerInfo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLength="50"
+                        android:drawableLeft="@drawable/ic_location_on_black_24dp"
+                        android:hint="City*"
+                        android:maxLines="1" />
+                </com.officework.customViews.FloatLabeledEditText>
+                <com.officework.customViews.FloatLabeledEditText
+                    style="@style/TextInputLayout"
+                    android:layout_width="match_parent"
+                    android:id="@+id/txtpostcode"
+
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/post_code"
+                        style="@style/TextCustomerInfo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_icon_postal"
+                        android:hint="@string/txt_post_code"
+                        android:inputType="text"
+                        android:maxLength="10"
+                        android:maxLines="1" />
+
+                </com.officework.customViews.FloatLabeledEditText>
+
+
+                <com.officework.customViews.FloatLabeledEditText
+                    style="@style/TextInputLayout"
+                    android:layout_width="match_parent"
+                    android:id="@+id/txtstatecode"
+
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/state_code"
+                        style="@style/TextCustomerInfo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_icon_postal"
+                        android:hint="@string/txt_state_code"
+                        android:inputType="text"
+                        android:maxLength="3"
+                        android:maxLines="1"
+                        />
+
+                </com.officework.customViews.FloatLabeledEditText>
+
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp" />
+
+                <TextView
+                    android:id="@+id/spinner_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_alignEnd="@+id/spinner"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="30dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/_5dp"
+                    android:text="Select Id"
+                    android:textSize="@dimen/_16sp"
+                    android:visibility="gone" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:background="@color/disabledGray" />
+
+                <!--                <com.frankmobile.customViews.FloatLabeledEditText-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:id="@+id/txtIdValue"-->
+                <!--                    android:hint=""-->
+                <!--                    android:layout_margin="@dimen/activity_horizontal_margin">-->
+
+                <!--                    <EditText-->
+                <!--                        android:id="@+id/idValue"-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:enabled="false"-->
+                <!--                        android:focusable="false"-->
+                <!--                        android:maxLength="30"-->
+                <!--                        android:focusableInTouchMode="false"-->
+                <!--                        android:inputType="text"-->
+                <!--                        android:maxLines="1" />-->
+
+                <!--                </com.frankmobile.customViews.FloatLabeledEditText>-->
+
+
+
+                <!--                <TextView-->
+                <!--                    android:id="@+id/select_image"-->
+                <!--                    android:drawableLeft="@drawable/ic_addd"-->
+                <!--                    android:drawablePadding="@dimen/_10dp"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:textStyle="bold"-->
+                <!--                    android:textColor="#000"-->
+                <!--                    android:textSize="@dimen/_16sdp"-->
+                <!--                    android:layout_marginLeft="@dimen/activity_horizontal_margin"-->
+                <!--                    android:text="Upload document*" />-->
+
+
+
+
+
+                <!--                <FrameLayout android:id="@+id/root"-->
+                <!--                    xmlns:android="http://schemas.android.com/apk/res/android"-->
+                <!--                    android:layout_width="@dimen/_100sdp"-->
+                <!--                    android:layout_gravity="center"-->
+
+                <!--                    android:layout_height="@dimen/_100sdp">-->
+                <!--                    <TextView-->
+                <!--                        android:id="@+id/select_image"-->
+                <!--                        android:layout_width="@dimen/_90sdp"-->
+                <!--                        android:layout_height="@dimen/_90sdp"-->
+                <!--                        android:background="@drawable/ic_do"-->
+                <!--                        android:text="\n\nID Proof*"-->
+                <!--                        android:textAlignment="center"-->
+                <!--                        android:textSize="@dimen/_16sdp"-->
+                <!--                        android:layout_gravity="center"-->
+                <!--                        android:drawableBottom="@drawable/ic_add_image"-->
+                <!--                        android:layout_margin="@dimen/activity_horizontal_margin"/>-->
+
+
+                <!--                    <RelativeLayout-->
+                <!--                        android:layout_width="@dimen/_100sdp"-->
+                <!--                        android:layout_height="@dimen/_100sdp"-->
+                <!--                        android:layout_gravity="center"-->
+                <!--                        android:padding="@dimen/_10dp">-->
+                <!--                        <ImageView-->
+                <!--                            android:id="@+id/show_image"-->
+                <!--                            android:layout_width="match_parent"-->
+                <!--                            android:layout_height="match_parent"-->
+                <!--                            android:visibility="gone"-->
+
+                <!--                            android:src="@drawable/ic_person"-->
+                <!--                            android:layout_gravity="center"-->
+                <!--                            android:background="@color/grayy"-->
+
+                <!--                            />-->
+
+
+                <!--                    </RelativeLayout>-->
+                <!--                    <ImageButton-->
+                <!--                        android:id="@+id/btn_close"-->
+                <!--                        android:layout_width="24dp"-->
+                <!--                        android:layout_height="24dp"-->
+                <!--                        android:scaleType="center"-->
+                <!--                        android:background="#00000000"-->
+                <!--                        android:layout_gravity="right"-->
+                <!--                        android:layout_alignParentRight="true"-->
+                <!--                        android:visibility="gone"-->
+                <!--                        app:srcCompat="@drawable/ic_remove_image"/>-->
+
+
+                <!--                </FrameLayout>-->
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:id="@+id/imgsllayout"
+                    >
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearLayout_main"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+
+                >
+
+
+                <TextView
+                    android:id="@+id/btn_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@color/background_deepGrey"
+                    android:paddingLeft="@dimen/_24sdp"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:paddingRight="@dimen/_24sdp"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:text="@string/Submit"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <!-- <TextView
+                     android:id="@+id/btn_next"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_centerInParent="true"
+                     android:background="@color/background_deepGrey"
+                     android:paddingLeft="@dimen/_32sdp"
+                     android:paddingTop="1dp"
+                     android:paddingRight="@dimen/_32sdp"
+                     android:paddingBottom="1dp"
+                     android:text="@string/txt_next"
+                     android:textColor="@color/white"
+                     android:textSize="@dimen/_16sdp"
+                     />-->
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.officework.fragments.GetBarCodeUDIFragment"
+    android:id="@+id/udidfragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txtViewSelectOption"
+        style="@style/Widget.TextViewHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="@string/txtScanMe"
+        android:textColor="@color/Black" />
+
+    <ImageView
+        android:id="@+id/imgViewBarCodeUDI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/txtViewUDIText"
+        style="@style/Widget.TextViewHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/disabledGray" />
+
+    <TextView
+        android:id="@+id/txtViewOrUse"
+        style="@style/Widget.TextViewHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_textview"
+        android:padding="5dp"
+        android:text="@string/txtOrUse"
+        android:textStyle="normal" />
+
+    <com.officework.customViews.CustomButton
+        android:id="@+id/txtViewRefcode"
+        style="@style/Widget.TextViewHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@null"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/carbonBlack"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtViewTimerRefcode"
+        style="@style/Widget.TextViewHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

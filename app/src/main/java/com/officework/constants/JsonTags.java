@@ -1,0 +1,85 @@
+package com.officework.constants;
+
+/**
+ * Created by girish.sharma on 7/28/2016.
+ */
+public enum JsonTags {
+
+    /**
+     * Json keys for API body
+     */
+
+    LicenceNumber,
+    UDI,
+    udi,
+    MMR_1,
+    MMR_2,
+    MMR_3,
+    MMR_4,
+    LGE,
+    MMR_5,
+    MMR_6,
+    MMR_7,
+    MMR_8,
+    MMR_9,
+    MMR_10,
+    MMR_11,
+    MMR_12,
+    MMR_13,
+    MMR_14,
+    MMR_15,
+    MMR_41,
+    MMR_49,
+    MMR_42,
+    RequestTypeID,
+    MMR_17,
+    MMR_19,
+    MMR_25,
+    MMR_27,
+    MMR_29,
+    MMR_31,
+    MMR_32,
+    MMR_33,
+    MMR_43,
+    MMR_18,
+    MMR_16,
+    MMR_20,
+
+    MMR_21,
+    MMR_44,
+    MMR_22,
+    MMR_23,
+    MMR_24,
+    MMR_26,
+    MMR_28,
+    MMR_30,
+    MMR_34,
+    MMR_35,
+    MMR_36,
+    MMR_38,
+    MMR_37,
+    MMR_46,
+    MMR_47,
+    MMR_39,
+    MMR_40,
+    MMR_45,
+    MMR_48,
+    MMR_57,
+    MMR_59,
+    MMR_62,
+    MMR_60,
+    MMR_63,
+    MMR_64,
+    MMR_61,
+    MMR_56,
+    MMR_66,
+    MMR_67,
+    MMR_68,  //  used for battery info 68
+    SubscriberProductID,
+    access_token,
+    token_type,
+    isTestDataChanged,
+    URL,
+    result, android, DeviceTime, isUserDeclined, refcode,RefCode, message, ttl, isExceptionLogChanged, ExceptionDateTime, RequestType, ExceptionDetail, StackTrace, MethodName, LogException, access_token_abacus_api, token_type_abacus_api, PartnerCode, StoreID, MMR_55, MMR_54, isTestPerformedDataChanged;
+
+}

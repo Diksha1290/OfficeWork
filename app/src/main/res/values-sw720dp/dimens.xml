@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="text_basic">232sp</dimen>
+    <dimen name="ball_size" tools:ignore="MissingDefaultResource">160dp</dimen>
+    <dimen name="ball_s" tools:ignore="MissingDefaultResource">70dp</dimen>
+    <dimen name="circle_radius">50px</dimen>
+    <dimen name="about_us" tools:ignore="MissingDefaultResource">28dp</dimen>
+    <!--AUTOMATION Screen-->
+    <dimen name="automatedbar">300dp</dimen>
+    <dimen name="automatedcirclebar">90dp</dimen>
+    <dimen name="toogle_text_size" tools:ignore="MissingDefaultResource">19dp</dimen>
+    <!--AUTOMATION Screen-->
+    <dimen name="margen_speker">51dp</dimen>
+    <dimen name="margen_spekerr">40dp</dimen>
+    <dimen name="margen_speker_descwidth">400dp</dimen>
+    <dimen name="automatetestname_us" tools:ignore="MissingDefaultResource">32dp</dimen>
+    <dimen name="circle_radisu"  tools:ignore="MissingDefaultResource">8dp</dimen>
+    <dimen name="verifytradbletext">28dp</dimen>
+    <dimen name="basic_padding_double_">20dp</dimen>
+</resources>

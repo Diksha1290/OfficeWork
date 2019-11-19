@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="arrDrawerNames">
+        <item>@string/txtDASHBOARD</item>
+        <item>@string/txtAUTOTEST</item>
+        <item>@string/txtMANUALTEST</item>
+        <item>@string/txtDEVICEINFO</item>
+        <!--<item>@string/txtgetQRCode</item>-->
+        <!--<item>@string/txtWipeData</item>-->
+        <item>@string/txtReset</item>
+        <item>@string/txtBarcode</item>
+        <item>@string/txtManualAboutUs</item>
+    </array>
+
+    <array name="arrAutomationTestName">
+        <item>@string/BluetoothActivation</item>
+        <item>@string/WiFiActivation</item>
+        <item>@string/PhoneVibrator</item>
+        <!--<item>@string/txtSpeakerMic</item>-->
+        <item>@string/SIMCardRemoved</item>
+        <item>@string/SdCardRemoved</item>
+        <item>@string/KillSwitchEnabled</item>
+        <item>@string/NotRooted</item>
+        <item>@string/CallFunction</item>
+        <item>@string/LightSensor</item>
+        <item>@string/barometer</item>
+    </array>
+
+    <array name="Volume">
+        <item>@string/volume_up</item>
+        <item>@string/volume_down</item>
+    </array>
+
+    <array name="volume_id">
+        <item>@string/volume_up</item>
+        <item>@string/volume_down</item>
+    </array>
+    <array name="Speaker">
+        <item>@string/lowfrequency</item>
+        <item>@string/midfrequency</item>
+        <item>@string/highfrequency</item>
+        <item>@string/shighfrequency</item>
+    </array>
+
+    <array name="Display">
+        <item>@string/white_display</item>
+        <item>@string/black_display</item>
+    </array>
+
+    <array name="Camera">
+        <item>@string/front_camera</item>
+        <item>@string/back_camera</item>
+    </array>
+    <array name="arrManualTestName">
+        <item>@string/EarphoneJack</item>
+        <item>@string/txtManualVolume_Btn</item>
+        <item>@string/PowerButton</item>
+        <item>@string/ChargingPort</item>
+        <item>@string/ProximitySensor</item>
+        <item>@string/HomeButton</item>
+        <item>@string/Gyroscope</item>
+        <item>@string/LightSensor</item>
+        <item>@string/txtManualCamera</item>
+        <item>@string/txtManualDisplay</item>
+        <item>@string/GPS</item>
+        <item>@string/Speaker</item>
+        <item>@string/Mic</item>
+        <item>@string/ScreenTouch</item>
+        <item>@string/MultiTouch</item>
+        <!--<item>@string/txtManualSleepWake</item>-->
+        <!--<item>@string/txtManualCompass</item>-->
+        <!--<item>@string/txtManualCallFunction</item>-->
+    </array>
+
+    <array name="arrManualTotalTestName">
+        <item>@string/txtManualCamera</item>
+        <item>@string/txtManualDisplay</item>
+        <item>@string/GPS</item>
+        <item>@string/Mic</item>
+        <item>@string/ScreenTouch</item>
+        <item>@string/MultiTouch</item>
+        <item>@string/DeviceCasing</item>
+        <item>@string/flash</item>
+        <item>@string/compass</item>
+
+        <item>@string/txtAccelerometer</item>
+        <item>@string/facedetection</item>
+        <item>@string/fingerprint</item>
+
+        <item>@string/txtManualCameraFront</item>
+        <item>@string/txtManualCameraBack</item>
+        <item>@string/txtManualDisplayWhite</item>
+        <item>@string/txtManualDisplayBlack</item>
+        <item>@string/txtManualVolumeUp</item>
+        <item>@string/txtManualVolumeDown</item>
+
+    </array>
+
+    <array name="arrSubTestName">
+        <item>@string/txtManualCameraFront</item>
+        <item>@string/txtManualCameraBack</item>
+        <item>@string/txtManualVolumeUp</item>
+        <item>@string/txtManualVolumeDown</item>
+        <item>@string/Speaker</item>
+        <item>@string/mic</item>
+    </array>
+
+
+    <array name="arrSemiAutomaticTestName">
+        <item>@string/EarphoneJack</item>
+        <item>@string/txtManualVolume_Btn</item>
+        <item>@string/PowerButton</item>
+        <item>@string/ChargingPort</item>
+        <item>@string/ProximitySensor</item>
+        <item>@string/HomeButton</item>
+        <item>@string/Gyroscope</item>
+        <item>@string/BatteryTest</item>
+
+    </array>
+
+    <array name="arrSemiAutomaticTestdesc">
+        <item>@string/txtManualEarJack_test</item>
+        <item>@string/txtTitleVolume_Btn</item>
+        <item>@string/txtManualPower_test</item>
+        <item>@string/txtTitleCharging</item>
+        <item>@string/txtManualProximitySensor_test</item>
+        <item>@string/txtManualHomeButton_test</item>
+        <item>@string/txtManualGyroscope_test</item>
+        <item>@string/txtTitleCharging</item>
+
+    </array>
+    <array name="arrManualTotalTestdesc">
+        <item>@string/txtTitleCamera</item>
+        <item>@string/txtManualDisplayDeadPixel</item>
+        <item>@string/txtGpsAlert</item>
+        <item>@string/txtManualSpeaker_test</item>
+        <item>@string/txtManualScreenTouchHelp</item>
+        <item>@string/txtManualMititouchToast</item>
+        <item>@string/txtDeviceCasingTest</item>
+        <item>@string/flashlightTest</item>
+        <item>@string/txtcompassTest</item>
+
+        <item>@string/txtaccelerometerTest</item>
+        <item>@string/facedetection</item>
+        <item>@string/placefinger</item>
+
+        <item>@string/txtManualCameraFront</item>
+        <item>@string/txtManualCameraBack</item>
+        <item>@string/txtManualDisplayWhite</item>
+        <item>@string/txtManualDisplayBlack</item>
+        <item>@string/txtManualVolumeUp</item>
+        <item>@string/txtManualVolumeDown</item>
+
+    </array>
+
+    <string name="txtManualCameraFront" translatable="false">Camera Front</string>
+    <string name="txtManualCameraBack" translatable="false">Camera Rear</string>
+    <string name="txtManualDisplayWhite" translatable="false">White Display</string>
+    <string name="txtManualDisplayBlack" translatable="false">Black Display</string>
+    <!--<string name="flashlight">Flashlight</string>-->
+
+
+        <string-array
+            name="rangeValues">
+            <item>0</item>
+            <item>60</item>
+            <item>120</item>
+            <item>180</item>
+            <item>240</item>
+            <item>300</item>
+            <item>360</item>
+        </string-array>
+    <!--<string name="phone">Office Work would require phone  access/permission to verify your device.</string>-->
+    <!--<string name="camera">Office Work would require access/permission to verify front and rear camera.</string>-->
+    <!--<string name="micc">Office Work would require access/permission to verify Microphone.</string>-->
+    <!--<string name="storage">Office Work would require storage access/permission to fetch storage details.</string>-->
+    <!--<string name="locationperm">Office Work would require access/permission to track your GPS location.</string>-->
+    <!--<string name="bluetoothperm">Office Work would require access/permission to verify your Bluetooth.</string>-->
+    <string name="phone">Allow Office Work to make and manage phone calls?</string>
+    <string name="camera">To test front &amp; rear camera function.</string>
+    <string name="micc">To test device’s microphone.</string>
+    <string name="storage">Allow Office Work to access photos, media and files on your device?</string>
+    <string name="locationperm">To test GPS/Location feature.</string>
+    <string name="bluetoothperm">Please make sure that your bluetooth and Wifi is turned on during device diagnostics.</string>
+    <string name="BatteryTest">Battery</string>
+
+    <array name="permissionDescription">
+        <item>@string/phone</item>
+        <item>@string/camera</item>
+        <item>@string/micc</item>
+        <item>@string/storage</item>
+        <item>@string/locationperm</item>
+        <item>@string/bluetoothperm</item>
+
+    </array>
+</resources>

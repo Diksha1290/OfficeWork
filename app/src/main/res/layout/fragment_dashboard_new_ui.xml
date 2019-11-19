@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/txtViewSelectOption"
+            style="@style/Widget.TextViewHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:singleLine="false"
+            android:text="@string/dashboardHeader"
+            android:textColor="@color/Black"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/txtViewSelectOption"
+            android:orientation="vertical">
+
+
+            <com.officework.customViews.LinearLayoutView
+                android:id="@+id/layoutAutomatedTest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/backgrounddashboarditem"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <com.officework.customViews.IconView
+                    android:id="@+id/imgViewAutomatedTest"
+                    android:layout_width="82dp"
+                    android:layout_height="82dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    app:srcCompat="@drawable/ic_automatictesting_svg_64" />
+
+                <TextView
+                    android:id="@+id/txtViewAutomatedTest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:padding="@dimen/basic_padding"
+                    android:text="@string/txtAutomatedTest"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+            </com.officework.customViews.LinearLayoutView>
+
+            <com.officework.customViews.LinearLayoutView
+                android:id="@+id/layoutManualTest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/backgrounddashboarditem"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <com.officework.customViews.IconView
+                    android:id="@+id/imgViewManualTest"
+                    android:layout_width="82dp"
+                    android:layout_height="82dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    app:srcCompat="@drawable/ic_manualtesting_svg_64" />
+
+                <TextView
+                    android:id="@+id/txtViewManualTest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:padding="@dimen/basic_padding"
+                    android:text="@string/txtManualTest"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+            </com.officework.customViews.LinearLayoutView>
+
+            <com.officework.customViews.LinearLayoutView
+                android:id="@+id/layoutGetBarCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/backgrounddashboarditem"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <com.officework.customViews.IconView
+                    android:id="@+id/imgViewGetBarCode"
+                    android:layout_width="82dp"
+                    android:layout_height="82dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    app:srcCompat="@drawable/ic_barcode_scanner_svg_64_new" />
+
+                <TextView
+                    android:id="@+id/txtViewGetBarCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:padding="@dimen/basic_padding"
+                    android:text="@string/txtQRCode"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+            </com.officework.customViews.LinearLayoutView>
+
+            <!-- <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="0.5"
+                 android:gravity="center"
+                 android:orientation="horizontal"
+                 android:visibility="gone"
+                 android:weightSum="1">
+
+                 <LinearLayout
+                     android:id="@+id/layoutGetBarCodeNew"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:gravity="center"
+                     android:orientation="vertical"
+                     android:visibility="gone"
+
+                     >
+
+
+                     <ImageView
+                         android:id="@+id/imgViewManualTest"
+                         android:layout_width="64dp"
+                         android:layout_height="64dp"
+                         android:visibility="gone"
+                         app:srcCompat="@drawable/ic_barcode_scanner_svg_64" />
+
+                     <TextView
+                         android:id="@+id/txtViewManualTest"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:background="@drawable/buttongetbarcode"
+                         android:fontFamily="sans-serif"
+                         android:gravity="center"
+                         android:paddingBottom="15dp"
+                         android:paddingLeft="15dp"
+                         android:paddingRight="15dp"
+                         android:paddingTop="15dp"
+                         android:text="@string/txtGetBarCode"
+                         android:textColor="@android:color/white"
+                         android:textSize="20sp"
+                         android:visibility="visible" />
+
+                 </LinearLayout>
+
+                 <LinearLayout
+
+                     android:id="@+id/layoutGetBarCode"
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="0.5"
+                     android:gravity="center"
+                     android:orientation="vertical"
+                     android:padding="10dp">
+
+                     <ImageView
+                         android:id="@+id/imgViewManualTest"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         app:srcCompat="@drawable/ic_barcode_scanner_svg_64" />
+
+                     <TextView
+                         android:id="@+id/txtViewManualTest"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:fontFamily="sans-serif"
+                         android:gravity="center"
+                         android:padding="@dimen/basic_padding"
+                         android:text="@string/txtQRCode"
+                         android:textColor="@android:color/black"
+                         android:textSize="20sp" />
+
+                 </LinearLayout>
+             </LinearLayout>-->
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

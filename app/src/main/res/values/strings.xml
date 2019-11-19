@@ -1,0 +1,757 @@
+<resources>
+    <string name="app_name">Office Works</string>
+    <string name="app_name_beta">Office Works </string>
+    <string name="trade_in_pro">Office Works</string>
+
+    <string name="build_version">Build Version</string>
+    <!--Generics-->
+    <string name="Ok">OK</string>
+    <string name="textNext">Next</string>
+    <string name="textSkip">Skip</string>
+    <string name="txtInqueue">In queue</string>
+    <string name="loaderTxt">Loading</string>
+    <string name="searchingTxt">Searching</string>
+    <string name="txtConfirm">Confirm</string>
+    <string name="txtContinue">Continue</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Done">Done</string>
+    <string name="txtAutomationPermission">Keep your Bluetooth and Wi-Fi turned on at all times to ensure correct results. Your device must also be connected to a Wi-Fi router/device before initiating the automated diagnostics.</string>
+    <string name="Yes1">
+         <![CDATA[<b>YES</b>]]></string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="Submit">Submit</string>
+    <string name="Reset">Reset</string>
+    <string name="Back">Back</string>
+    <!--<string name="quit_app">Are you sure you want to go to QR Code Scan screen?</string>-->
+    <!--<string name="quit_app">Are you sure you want to scan the device again?</string>-->
+    <string name="quit_app">Are you sure you want to exit Office Works?</string>
+    <string name="verifying_device_trade">Verifying Device Tradability.</string>
+    <string name="this_should">This should take less than 10 seconds</string>
+    <string name="logout_app">Are you sure you want to Sign out?</string>
+    <string name="ServerError">Something went wrong. Please check your Internet or try again later.</string>
+    <string name="InternetError">There was an error processing your request. Please check your internet connection and try again.</string>
+    <string name="InvalidLoginCreds">Please enter correct Email ID or Password</string>
+    <string name="loaderMsg">Please wait while we are processing your request.</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="txtInternetIssue">There was an error processing your request. Please check your internet connection and try again.</string>
+    <string name="micinstructions1">Remove earphone.</string>
+    <string name="micinstructions2">Maximize the volume.</string>
+    <string name="micinstructions3">Noise may affect the result.</string>
+    <string name="micinstructions4">Do not cover the mic.</string>
+    <string name="micinstructions5"> Please allow microphone access.</string>
+    <!--Dashboard Screen-->
+    <string name="txtDeviceInfo">Device \nInfo</string>
+    <string name="txtAutomatedTest">Automated Tests</string>
+    <!--<string name="txtManualTest">Manual \nTests</string>-->
+    <string name="txtManualTest">Manual Tests</string>
+    <string name="txtBuyBack">Trade - In \nMy Device</string>
+    <string name="txtQRCode">Get Barcode</string>
+    <string name="txtGetBarCode">Get Barcode</string>
+
+    <!--Device Info Screen-->
+    <string name="txtTabNamesHardware">Hardware</string>
+    <string name="txtTabNamesSystem">System</string>
+    <string name="txtTabNamesBattery">Battery</string>
+    <string name="txtTabNamesNetwork">Network</string>
+    <string name="txtTabNamesCamera">Camera</string>
+
+    <string name="lowfrequency"><![CDATA[Low <br> Frequency]]> </string>
+    <string name="midfrequency"><![CDATA[Mid <br> Frequency]]></string>
+    <string name="highfrequency"><![CDATA[High <br> Frequency]]></string>
+    <string name="shighfrequency"><![CDATA[Super High<br>Frequency]]></string>
+    <!--Hardware-->
+    <string name="txtProcessor">Processor</string>
+    <string name="txtHardware">Hardware</string>
+    <string name="txtCPU">CPU</string>
+    <string name="txtProcess">Process</string>
+    <string name="txtCores">Cores</string>
+    <string name="txtFrequencies">Frequencies</string>
+    <string name="txtGovernor">Governor</string>
+    <string name="txtVendor">Vendor</string>
+    <string name="txtOpenGl">OpenGL</string>
+
+    <!--Graphics-->
+    <string name="txtGraphics">Graphics</string>
+    <string name="txtGPU">GPU</string>
+    <string name="txtMax_frequency">Max frequency</string>
+    <string name="txtResolution">Resolution</string>
+    <string name="txtScreen_density">Screen density</string>
+    <string name="txtScreen_size">Screen size</string>
+    <string name="txtFrame_rate">Frame rate</string>
+
+    <!--Memory-->
+    <string name="txtMemory">Memory</string>
+    <string name="txtRamSize">RAM Size </string>
+
+    <!--Storage-->
+    <string name="txtStorage">Storage</string>
+    <string name="Capacity">Internal Storage</string>
+    <string name="txtSystemStorage">System Storage</string>
+    <string name="txtStorageAvailable">Available Internal Storage</string>
+    <string name="txtIOScheduler">I/O Scheduler</string>
+    <string name="txtReadAhead">Read ahead</string>
+
+    <!--System-->
+    <string name="txtSystem">System</string>
+    <string name="Model">Model</string>
+    <string name="txtCodename">Codename</string>
+    <string name="Manufacturer">Manufacturer</string>
+    <string name="SerialNumber">Serial number</string>
+    <string name="txtBoot_loader">Boot loader</string>
+    <string name="txtRadio">Radio</string>
+    <string name="IMEI1">IMEI 1</string>
+    <string name="IMEI2">IMEI 2</string>
+    <string name="txtDevice_ID">Device ID</string>
+    <string name="txtAutomation">Automated Test</string>
+    <string name="OperatingSystem">Operating System</string>
+    <string name="txtRootAccess">Root Access</string>
+    <string name="txtBusy_box">Busy box</string>
+    <string name="OperatingSystemVersion">Android Version</string>
+    <string name="txtBuild">Build</string>
+    <string name="txtSDK">SDK</string>
+    <string name="txtKernel">Kernel</string>
+    <string name="txtPermissionDenied">Not permitted by user</string>
+    <string name="txtPermissionRoot">Device is Rooted</string>
+    <string name="txtPermissionRootNot">Device is Not Rooted</string>
+    <string name="txtUnavailable">Unavailable</string>
+
+
+    <!--Battery-->
+    <string name="txtStatus">Status</string>
+    <string name="txtStatusCharging">Charging</string>
+    <string name="txtStatusDischarging">Discharging</string>
+    <string name="txtStatusFull">Full</string>
+    <string name="txtStatusNot_Charging">Not Charging</string>
+    <string name="txtLevel">Level</string>
+    <string name="txtTemperature">Temperature</string>
+    <string name="txtInformation">Information</string>
+    <string name="txtTechnology">Technology</string>
+    <string name="txtUnknown">Unknown</string>
+    <string name="BatteryCondition">Health</string>
+    <string name="txtHealthDead">Dead</string>
+    <string name="txtHealthGood">Good</string>
+    <string name="txtHealthOver_Voltage">Over Voltage</string>
+    <string name="txtHealthOver_Heat">Over Heat</string>
+    <string name="txtHealthFailure">Failure</string>
+    <string name="txtVoltage">Voltage</string>
+    <string name="txtVoltageV">V</string>
+    <string name="txtCurrent">Current</string>
+    <string name="txtCapacity">Capacity</string>
+    <string name="txtPlugInTypeUSB">USB</string>
+    <string name="txtPlugInTypeAC">AC</string>
+
+    <!--Network-->
+    <string name="txtWifi">Wifi</string>
+    <string name="txtNetwork">Network</string>
+    <string name="net_working">Network working</string>
+    <string name="txtBSSID">BSSID</string>
+    <string name="txtDHCPServer">DHCP Server</string>
+    <string name="txtGateway">Gateway</string>
+    <string name="txtIPaddress">IP address</string>
+    <string name="txtLinkSpeed">Link Speed</string>
+    <string name="MACAddress">MAC address</string>
+    <string name="txtSignalstrength">Signal strength</string>
+    <string name="txtPublicIP">Public IP</string>
+    <string name="txtMobile">Mobile</string>
+    <string name="txtCallFunctionHeading">Diagnosing…</string>
+    <string name="txtOperator">Operator</string>
+    <string name="txtOperatorcode">Operator code</string>
+    <string name="txtRoaming">Roaming</string>
+    <string name="CDMAGSM">Phone type</string>
+    <string name="txtNetworktype">Network type</string>
+    <string name="txtWif">WIFI</string>
+    <string name="txtNet">MOBILE</string>
+    <string name="txtDbm"> dBm</string>
+
+    <string name="welcome">Welcome</string>
+    <string name="frank_mobile">Office Works Diagnostics App.</string>
+    <string name="thank_you_download">Thank you for downloading Office Works Diagnostics App.</string>
+    <string name="frank_wel_des">Thank you for downloading Office Works Diagnostics App.In order to assess device\'s health, app will perform a series of automated and interactive tests. Follow on-screen instructions to complete all tests and get accurate device valuation.\n\n Keep your Bluetooth and Wi-Fi turned on at all times to ensure correct results.
+\n\nThe app may prompt you to grant certain permissions on the next screen to perform all tests successfully.
+\n\nPress proceed to begin.</string>
+    <string name="txtWiEnable">Wifi Enabled</string>
+    <string name="txtMobEnable">Mobile Data Enabled</string>
+    <string name="txtNotEnable">Not Connected To Internet</string>
+    <string name="txtSimConnect">Connected</string>
+    <string name="txtSimDisconnect">Disconnected</string>
+    <string name="txtSimNetworkLock">Network Locked</string>
+    <string name="txtSimPukRequired">PUK Required</string>
+    <string name="txtSimPinRequired">Pin Required</string>
+    <string name="txtSimUnkown">Unknown</string>
+    <string name="txtSimNone">None</string>
+    <string name="txtRoamEnable">Enabled</string>
+    <string name="txtRoamDisabled">Disabled</string>
+    <string name="txtRoamNotAvail">No Connection</string>
+    <string name="txtTypeCDMA">CDMA</string>
+    <string name="txtTypeGSM">GSM</string>
+    <string name="txtTypeNone">NONE</string>
+    <string name="order_mesage">Your order has been placed. Please consult your store manager for further processing.</string>
+    <string name="order_id">Order ID  </string>
+    <string name="total_test">Total Tests</string>
+    <string name="passed">Passed</string>
+    <string name="failed">Failed</string>
+    <string name="device_price">Device Price</string>
+    <string name="reperform_text">To re-perform the failed tests, press \'Retest\' or press \'Next\' to begin the interactive tests. Please follow on screen instructions carefully to ensure accurate results.</string>
+    <string name="reperform_text_manual">To re-perform all the failed tests, press \'Retest\' or tap a test icon above to redo that one.  Tap \'Next\' to proceed to device valuation.</string>
+    <string name="device_deductions">Deduction</string>
+    <string name="offer_price">Offer Price</string>
+    <string name="privacy_line">I have read and accept all the <a href="https://www.veridic.co.uk/terms">Terms &amp; Conditions</a> .</string>
+    <string name="proceed">Proceed</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="reject">Reject</string>
+    <string name="accept">Accept</string>
+    <string name="sucess">Success</string>
+    <string name="rescan_head">Alert!</string>
+    <string name="exit_app">Are you sure you want to exit Office Works?</string>
+    <string name="exit">Exit Application</string>
+    <string name="rescan_msg"><![CDATA[Are you sure you want to quit? You will loose all the diagnostics results and the pricing associated with this quote.]]></string>
+    <string name="rescan_msgg"><![CDATA[Would you like to rescan the device? ]]></string>
+    <string name="html_yes"><![CDATA[Yes]]></string>
+    <string name="html_no"><![CDATA[No]]></string>
+    <string name="confirmation">Confirmation</string>
+    <string name="submit">Submit</string>
+    <string name="Id">Enter Id</string>
+    <string name="email">Email</string>
+    <string name="emaill">Enter Email</string>
+    <string name="phone_no">Phone No</string>
+    <string name="last_name">Last Name*</string>
+    <string name="first_name">First Name</string>
+    <string name="sync_message">Your diagnostic data has been synced successfully.</string>
+    <string name="report">Device Summary</string>
+    <string name="customer_info">Customer Information</string>
+    <string name="device_removed">Your device has been removed.</string>
+    <string name="error_confirm">Confirm email not matched</string>
+    <!--Camera-->
+    <string name="txtPrimaryCamera">Primary Camera</string>
+    <string name="txtSecondaryCamera">Secondary Camera</string>
+    <string name="camera_new_des"><![CDATA[ You will now be asked to click picture using front and rear camera, one at a time. Press the shutter (round button) on the screen and confirm if the pictures were taken correctly by pressing Confirm button at the bottom right corner ]]></string>
+
+    <string name="txtFocallength">Focal length</string>
+    <string name="txtFocusmodes">Focus modes</string>
+    <string name="txtJPEGquality">JPEG quality</string>
+    <string name="txtImageformat">Image format</string>
+    <string name="txtSensors">Sensors</string>
+    <string name="txtSensorinfo">Sensor info</string>
+    <string name="txtAccelerometer">Accelerometer</string>
+    <string name="txtLightsensor">Light sensor</string>
+    <string name="txtProximitysensor">Proximity sensor</string>
+    <string name="txtFocusFIA">Fixed,Infinity,Auto</string>
+    <string name="txtFocusFI">Fixed,Infinity</string>
+    <string name="txtFocusAI">Infinity,Auto</string>
+    <string name="txtFocusAF">Fixed,Auto</string>
+    <string name="txtFocusAuto">Auto</string>
+    <string name="txtFocusFixed">Fixed</string>
+    <string name="txtFocusInfinity">Infinity</string>
+
+    <string name="txtTermCondition">Terms &amp; Conditions</string>
+
+    <!--Automation Test-->
+    <string name="txtAlertDialog">You have selected Automated Diagnostics.</string>
+    <string name="txtAlertDialogSmartRun">You have started Mega Smart Run for Diagnostics.</string>
+    <string name="PhoneVibrator">Vibration</string>
+    <string name="txtSpeakerMic">Speaker &amp; Mic</string>
+    <string name="BluetoothActivation">Bluetooth</string>
+    <string name="WiFiActivation">Wifi</string>
+    <string name="SIMCardRemoved">Sim Card Removed</string>
+    <string name="SdCardRemoved">SD Card Removed</string>
+    <string name="txtBattery">Battery Health</string>
+    <string name="txtPass">Verified</string>
+    <string name="txtManualPass">Test Passed</string>
+
+    <string name="txtInProgress">Checking</string>
+    <string name="txtFail">Oops!</string>
+    <string name="txtAlertTitleGreat">Great !</string>
+    <string name="txtAlertTitleGreatAlert">Alert!</string>
+
+    <string name="txtLetsStart">Lets Start !</string>
+    <string name="txtStart">Start</string>
+    <string name="txtAlertBackPress">Please wait while we are performing diagnostics.</string>
+    <string name="txtTestAgain">Press start to test again.</string>
+    <string name="txtAutomationCompleted">Great your automation diagnostics has been done.</string>
+
+    <!--Manual Test-->
+    <string name="txtManual">Interactive Diagnostics</string>
+    <string name="txtManual_Test">Diagnostics</string>
+    <string name="txtManualCamera">Camera</string>
+    <string name="auto_summary">Automated Diagnostics Summary</string>
+    <string name="manual_summary">Interactive Diagnostics Summary</string>
+    <string name="txtManualSpeaker_test">Please press the play button to perform this test.This will play music via the device\'s speakers.</string>
+    <string name="txtManualSpeaker_test_Dialog">Please confirm if you are able to hear played track properly ?</string>
+    <string name="txtManualMic_test_Dialog">Are you able to hear voice which you have recorded ?</string>
+    <string name="txtCount_test_Dialog">Are you still performing the test?</string>
+
+    <string name="Speaker">Speaker</string>
+    <string name="mic">Mic</string>
+    <string name="Mic">Speaker and Mic</string>
+    <string name="txtCameraTestFail">Test Failed</string>
+    <string name="txtFrontCameraTestFail">Test Failed</string>
+    <string name="txtBackCameraTestFail">Test Failed</string>
+
+    <string name="txtManualFrontCam">Oops! The front camera doesn’t work.</string>
+    <string name="txtManualBackCam">Oops! The rear camera doesn’t work.</string>
+
+
+    <string name="txtTitleCamera">Please capture image from both front &amp; rear camera and confirm if they are fine.</string>
+    <string name="txtBackPressed">Are you Sure?</string>
+    <string name="txtBackPressedYes">Yes</string>
+
+    <!--<string name="EarphoneJack">Ear &amp; Jack</string>-->
+    <string name="EarphoneJack">Jack</string>
+    <string name="txtManualEarJack_test">Insert earphones/headphones into the headphone jack.</string>
+    <string name="txtManualDisplayAlert">Alert!</string>
+    <string name="txtManualDisplayYes">Yes</string>
+    <string name="txtManualDisplayNo">No</string>
+    <string name="txtManualDisplayDeadPixel"><![CDATA[ As you tap \'Start\' to begin the test, the screen will turn red for a few seconds followed by green, blue, white and black to help you spot any missing or dead pixels. Please observe the screen carefully for any issues.]]></string>
+    <string name="DeadPixelWhite">White Dead Pixel</string>
+    <string name="DeadPixelBlack">Black Dead Pixel</string>
+    <string name="txtManualDeadPixelWhiteXMLPass">White Dead Pixel - Pass</string>
+    <string name="txtManualDeadPixelWhiteXMLFail">White Dead Pixel - Fail</string>
+    <string name="txtManualDeadPixelBlackXMLPass">Black Dead Pixel - Pass</string>
+    <string name="txtManualDeadPixelBlackXMLFail">Black Dead Pixel - Fail</string>
+    <string name="txtManualDeadPixelStartXML">Start</string>
+    <string name="txtManualDisplayDeadPixelMessageBlack">Is your screen free from any missing or dead pixels?</string>
+    <string name="txtManualDisplayDeadPixelMessageWhite">Is your screen free from any missing or dead pixels?</string>
+    <string name="txtManualTouchScreen">Are you still performing the test?</string>
+
+    <string name="txtManualDeadPixelWhite">Are you able to see 5 Stars on screen?</string>
+    <string name="txtManualDeadPixelBlack">Are you able to see 5 Stars on screen?</string>
+
+    <!--Volume Button Changes-->
+    <string name="txtManualVolume_Btn">Volume Buttons</string>
+    <string name="txtTitleVolume_Btn"><![CDATA[ Press  Volume up and Volume down button.]]></string>
+
+
+    <string name="VolumeUp">Volume up</string>
+    <string name="VolumeDown">Volume down</string>
+    <string name="PowerButton">Power Button</string>
+    <string name="txtManualPower_test">
+     Press the power/sleep button and then unlock your phone to come back to this screen.
+    </string>
+    <string name="ChargingPort">Charging Port</string>
+    <string name="txtPortTestedSuccess">Port tested successfully you can now remove the charger.</string>
+    <string name="txtTitleCharging">Plug-in device\’s charger and ensure it\'s turned on.</string>
+    <string name="txtManualDisplay">Display</string>
+    <string name="MultiTouch">Multi-Touch</string>
+    <string name="txtManualMititouch_ALertText">%1$s fingers has been touched. Please confirm.</string>
+    <string name="txtManualMititouchToast">Touch the screen with at least 2 fingers.</string>
+    <string name="txtManualMititouchRetryToast">Please touch the screen with at least 2 fingers.</string>
+    <string name="txtManualMititouchCongratsToast">Congrats test is successful.</string>
+    <string name="ProximitySensor">Proximity Sensor</string>
+    <string name="txtManualProximityWorking">Proximity Sensor Working</string>
+    <string name="txtNoProximitySensor">No Proximity Sensor Found !</string>
+    <string name="txtProximitySensorNear">You are Near: </string>
+    <string name="txtProximitySensorFar">You are Far: </string>
+    <string name="txtManualProximitySensor_test">Move your hand over the top of the screen.</string>
+    <string name="ScreenTouch">Touch Screen</string>
+    <string name="txtManualScreenTouchPass">Screen Touch successfully passed.</string>
+    <string name="txtManualScreenTouchHelp">Run your fingertip over all the grey blocks on the screen until they turn white.</string>
+    <string name="txtManualScreenTouchComplete">Congrats you screen touch is working fine.Now you can press back button and continue with the other examination.</string>
+    <string name="txtPowerBtnPressed">Power button pressed</string>
+   <string name="accelerometer_des">Tilt the screen around to hit the yellow,red,green balls with the blue ball. You must hit all the 3 blue balls to pass the test.</string>
+    <string name="HomeButton">Home</string>
+    <string name="txtManualHomeTestWait">Application will reload automatically.</string>
+    <string name="txtManualHomeButton_test"><![CDATA[Press the home button and then wait for the app to re-open on this screen again.]]></string>
+    <string name="SleepWakeButtons">Sleep &amp; Wake</string>
+    <string name="txtLocked">Locked</string>
+    <string name="txtUnLocked">UnLocked</string>
+    <string name="txtManualSleepWake_test">Hey, I am going inside your device to test device sleep and wake button.Please press your power button.</string>
+    <string name="LightSensor">Light Sensor</string>
+    <string name="txtLightSensor">LIGHT:</string>
+    <string name="txtManualLightSensor_test">Please place your device near the light source.</string>
+    <string name="txtManualCompass">Compass</string>
+    <string name="txtManualCallFunction">Call Function</string>
+    <string name="GPS">GPS</string>
+    <string name="Gyroscope">Gyroscope</string>
+    <string name="txtPhoneShaked">Shaked !</string>
+    <string name="txtManualGyroscope_test">Shake your device.</string>
+
+    <!--Buy Back-->
+    <string name="txtBuyBackSoon">Will available soon !</string>
+
+    <!--Vibrate Fragment-->
+    <string name="txtAutomated">Automated Diagnostics</string>
+    <string name="txtVibrateSuccess">Vibrator working fine</string>
+    <string name="txtVibrateFailed">Vibrator not working</string>
+    <string name="txtTitleVibrator">Hey, I am going inside your device to test device vibrator. You can put it on surface to avoid erroneous judgement.</string>
+
+    <!-- DashBoard-->
+    <string name="txtAUTOTEST">Automated Tests</string>
+    <string name="txtDASHBOARD">Dashboard</string>
+    <string name="checking_device">Device Look Up</string>
+    <string name="txtMANUALTEST">Manual Tests</string>
+    <string name="txtDEVICEINFO">Device Info</string>
+    <string name="txtTRADEIN">Trade - In My Device</string>
+    <string name="txtgetQRCode">Get Barcode </string>
+    <string name="txtQRCode_Title">Barcode</string>
+    <string name="txtNoFrontCam">Sorry no front cam is available</string>
+    <string name="txtScreenTouch">Please tab on the screen to paint it in white color.</string>
+
+    <string name="faceDetectionFront">Please aim your face to the front camera</string>
+    <string name="faceDetectionBack">Flip your phone around to aim your face to the rear/back camera</string>
+    <!--About US-->
+    <string name="txtManualAboutUs">About Us</string>
+    <string name="aboutUsLink">http://megammr.com/</string>
+    <string name="txtDialogMessageAutomationDone">Do you want to go for manual diagnostics. If yes press continue or you can cancel it.</string>
+
+    <!--Smart Run-->
+    <string name="buttonTextSmartRun">MegaMMR Smart Run</string>
+
+    <!--QR Code-->
+    <string name="textQRCodeHelp">Please scan this barcode into the MegaMMR enabled system to automatically retrieve the diagnostics data.</string>
+    <string name="buttonTextSmartRunDesc">Mega Smart run will automatically start the diagnostic process.</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="txtPleaseWait">Please wait while music is playing.</string>
+    <string name="txtSpeakerTestPass">Congrats your speakers are working fine.</string>
+    <string name="txtSpeakerTestFail">Oops! your speakers has some issue.</string>
+    <string name="txtMicTestPass">Congrats your mic is working fine.</string>
+    <string name="txtMicTestFail">Oops! your mic has some issue.</string>
+    <string name="txtRecordingStop">Recorded done.Please click the play button to listen...</string>
+    <string name="txtRetest">Re-Test</string>
+    <string name="txtMicTitleHeader">Please tap on the mic icon and record your voice for performing this test.</string>
+    <string name="txtDiagnose">Diagnosing</string>
+    <string name="KillSwitch">Kill Switch</string>
+    <string name="KillSwitchEnabled">Kill Switch Disabled</string>
+    <string name="Rooted">Rooted</string>
+    <string name="NotRooted">Not Rooted</string>
+    <string name="CallFunction">Call Function</string>
+    <string name="txtGPSBack">Is the location shown on map accurate?</string>
+    <string name="noInternet">There was an error processing your request. Please check your internet connection and try again.</string>
+    <string name="textFooter">Powered by Fairworld IT Solutions</string>
+    <string name="textNotAvailable">Not Available</string>
+    <string name="txtManualTouchScreenDisplay">Touch Screen</string>
+    <string name="testCompleted">Diagnostic Completed.</string>
+    <string name="txtPerform">Please perform diagnostics</string>
+    <string name="txtPermissionMessage">This permission is required to diagnose your device, if you press cancel test will not be performed..</string>
+    <string name="txtPermissionMessageMic">This permission is required to diagnose your device, if you press cancel test will not be performed..</string>
+    <!--<string name="txtPermissionMessageGps">This permission is required to diagnose your device, if you press cancel test will not be performed..</string>-->
+
+    <string name="txtPermissionMessageGps">Office Works was not allowed to access the GPS.Please open the settings of your device to grant permission.</string>
+    <string name="txtPermissionRequired">Warning!</string>
+    <string name="txtRetry">Retry</string>
+    <string name="dashboardHeader">Select any option to begin</string>
+    <string name="txtInternetCheck">There was an error processing your request. Please check your internet connection and try again.</string>
+    <string name="broadcast">Please click on the below icon to broadcast the data</string>
+    <string name="txtBroadcasting">Broadcasting data...</string>
+    <string name="textNote">Note:- Diagnostics data/bar code will be expired after 12 hours</string>
+    <string name="txtDataExpired">Data has been expired</string>
+    <string name="txtWipeData">Data wipe</string>
+    <string name="dataWipeWarning">Process will remove user installed applications, settings, wallpaper and sound settings. Deleted data will not be recoverable. Are you sure you want to wipe device?</string>
+    <string name="txtWipeDataTitle">Read carefully !</string>
+    <string name="txtPermissionMessageCamera">Do you want to test the camera? You will be asked to take pictures using rear and front camera(if available).Press the round shutter button on the screen. Then you will be asked to verify the pictures has been taken correctly to confirm the camera is working.</string>
+    <string name="txtPermissionRequiredAlert">Alert!</string>
+    <string name="dataCleared">Data Cleared</string>
+    <string name="Message">
+        <![CDATA[
+       <b>Clearing Diagnostic data.</b>]]>
+    </string>
+    <string name="txtSecretCode">Please enter the secret code sent to your email.</string>
+    <string name="Skip">
+       <![CDATA[<b>SKIP</b>]]></string>
+    <string name="txtPermissionMessageCameraFrntNot">Do you want to test the camera? You will be asked to take pictures using rear camera by clicking the round shutter button on the screen. Then you will be asked to verify the pictures have been taken correctly to confirm the camera is working.</string>
+    <string name="txtGpsAlert">App will now show your location on the map. Please confirm if its accurate.</string>
+    <string name="txtPermissionRequiredAlertManual">Ready to start diagnostics?</string>
+    <string name="txtOpenManual">Click \"All\" to perform all the manual tests in a sequence. Click \"Manual\" to do each test individually.</string>
+    <string name="Manual">Manual</string>
+    <string name="All">All</string>
+    <string name="txtPermissionMessageWipe">
+
+         <![CDATA[
+        This will reset all your performed diagnostics. You can perform the diagnostics later again. Do you want to proceed?
+     ]]>
+
+
+    </string>
+    <string name="txtReset">Reset Diagnostics</string>
+    <string name="txtOSName">OS Name</string>
+    <string name="txtManualFail">Test Failed</string>
+
+    <string name="ExpertMode">Expert Mode</string>
+    <string name="txtVolumeUp">Volume Up test passed.</string>
+    <string name="txtVolumeDown">Volume Down test passed.</string>
+    <string name="txtChargingPort">Charging port working fine.</string>
+    <string name="txtJackPort">Jack port is working fine.</string>
+    <string name="txtWorkingFine">is working fine.</string>
+    <string name="txtProximitysensorPass">Proximity sensor working fine.</string>
+    <string name="txtGyroscopePass">Gyroscope is working fine.</string>
+    <string name="txtLightSensorPass">Light sensor is working fine.</string>
+    <string name="txtExpert">All</string>
+    <string name="txtAll">All</string>
+    <string name="txtMutitouchPass">Multitouch working fine.</string>
+    <string name="txtHomeButtonPass">Home button is working fine.</string>
+    <string name="txtFullyManual">Manual</string>
+    <string name="txtSemiAutomatic">Semi Automatic</string>
+    <string name="txtPowerPass">Power Button Working</string>
+    <string name="textExpertDesc">You are now in expert mode and can perform the below listed tests randomly without following any sequence.</string>
+    <string name="txtManualVolumeUp">Volume Up</string>
+    <string name="txtManualVolumeDown">Volume Down</string>
+    <!--  <string name="txtManualAboutUsScreen"> FairWorld IT Solutions is a professional Software organization offering high-quality solutions to businesses.
+          It services the information technology requirements of companies ranging from the Fortune 100 to medium-sized firms by utilizing specialized domain
+          knowledge, best-of-breed technologies, rapidly deployable proprietary frameworks/solutions and flexible engagement models.
+          \n FairWorld IT Solutions was founded in early 2015 and is based in city beautiful Chandigarh, India, MegaMMR Software is a trusted resource for
+          many companies around the globe for Make/Model recognition software which can be seamlessly integrated in any Retail or online solution.
+          Our product is used to extract brand, model, IMEI and other relevant information from any iOS or Android based smartphones
+          . That information is further used in numerous trade-in Retail and Online sites by the customer to recycle their phone
+          . \n MegaMMR is heckle free, easy to use, and easy to install software. Once installed all you need to do is plug your phone to a USB cable and MegaMMR does the rest. It magically extracts brand, model, IMEI and other relevant information from the phone.</string>-->
+    <string name="txtManualAboutUsScreen">
+         <![CDATA[<p style="text-align:justify">Since 2010, Veridic Technologies has been working as a full-service IT consultancy & solutions partner, dedicated to maximizing the growth of used mobile businesses across the globe. Our clients include Enterprises, SMEs & Startups from Retailers, Wholesalers, Distributors, Telecom Operators, Office Works Providers, Warehouse Providers & Mobile Phone Recyclers.</p>
+ <p style="text-align:justify">Originally, built as an outsourcing firm for Brightstar Corporation (a USD 10 Billion company) by Mr. Ankur Thakur, now Veridic has risen to become an internationally known brand. We have a dedicated team of experts, mid & junior level 150+ employees operating from 2 offices, India & UK. </p>
+ <p style="text-align:justify">Some of the esteemed users of our products & solutions are Brightstar, Belmont, Apple, Vodafone, EE, Claro, Telcel, Telecom Italia, T Mobile, as entities using our solutions. </p>
+ <p style="text-align:justify">Note: Veridic Technologies reserves all rights for CellDe Office Works application. Any unauthorized copying, printing, reproduction, dissemination, distribution in any form is strictly prohibited.</p>
+]]>
+     </string>
+    <string name="txtManualAboutUsScreenbeta">
+         <![CDATA[<p style="text-align:justify">Since 2010, Veridic Technologies has been working as a full-service IT consultancy & solutions partner, dedicated to maximizing the growth of used mobile businesses across the globe. Our clients include Enterprises, SMEs & Startups from Retailers, Wholesalers, Distributors, Telecom Operators, Office Works Providers, Warehouse Providers & Mobile Phone Recyclers.</p>
+ <p style="text-align:justify">Originally, built as an outsourcing firm for Brightstar Corporation (a USD 10 Billion company) by Mr. Ankur Thakur, now Veridic has risen to become an internationally known brand. We have a dedicated team of experts, mid & junior level 150+ employees operating from 2 offices, India & UK. </p>
+ <p style="text-align:justify">Some of the esteemed users of our products & solutions are Brightstar, Belmont, Apple, Vodafone, EE, Claro, Telcel, Telecom Italia, T Mobile, as entities using our solutions. </p>
+ <p style="text-align:justify">Note: Veridic Technologies reserves all rights for CellDe Office Works-Pro application. Any unauthorized copying, printing, reproduction, dissemination, distribution in any form is strictly prohibited.</p>
+]]>
+     </string>
+    <string name="txtFurtherDetail">For further detail, Contact us at:</string>
+    <!--<string name="txtFurtherDetailUrl">https://fairworld.in</string>-->
+    <string name="txtProductionDetail">For production details, Contact us at:</string>
+    <!--<string name="txtProductionDetailUrl">https://megammr.com</string>-->
+
+    <string name="txtProductionDetailUrl"><a href="http://megammr.com">https://megammr.com</a></string>
+    <string name="txtFurtherDetailUrl"><a href="http://fairworld.in">https://fairworld.in</a></string>
+    <string name="txtRetake">Retake</string>
+    <string name="txtPictureSaved">Picture saved</string>
+    <string name="txtNotAvailable">Not Available</string>
+    <string name="MessageProgressCamera">Saving Image</string>
+    <string name="txtAgree">Agree</string>
+    <string name="txtDisagree">Disagree</string>
+    <string name="txtWelcometradeinpro_beta">Welcome to Office Works</string>
+    <string name="device_not_list">Your device is not listed under the \n tradable device list</string>
+    <string name="complete">Completed</string>
+    <string name="txtDecryptPass">TWVnYU1NUjk4NzY1NDMyMQ==</string>
+    <string name="txtPassword">TWVnYU1NUjk4NzY1NDMyMQ==</string>
+    <string name="txtNotSyncData">Data Not Synced</string>
+    <string name="txtSyncedData">Data Synced</string>
+    <string name="txtLastSync">Last synced on :</string>
+    <string name="txtLoading">Loading</string>
+    <string name="txtAlertTermsAndCondition"><![CDATA[Office Works needs to fetch your device information including IMEI and serial number then transmit them to partner’s website for the purpose of evaluation of your device. By clicking the <b>ACCEPT</b> button you will agree to allow Office Works to fetch the required information from the device.]]></string>
+    <string name="txtAlertTermsAndConditionbeta">Office Works needs to fetch your device information including IMEI and serial number and transmit them to partner’s website for the purpose of evaluation of your device. By clicking the accept button you agree to allow mCheck_beta to fetch the required information from the device.</string>
+    <string name="beign">Begin</string>
+    <string name="txtAccept">Accept</string>
+    <string name="txtDecline">Decline</string>
+    <string name="txtNoDataReceived">No Data Received</string>
+    <string name="txtScanMe">Scan Me</string>
+    <string name="txtOrUse">OR</string>
+    <string name="txtGetNew">Get New</string>
+    <string name="txtOr">OR</string>
+    <string name="txtEnterPassword">Enter Password</string>
+    <string name="txtNotAuthorize">You Are Not Authorized</string>
+    <string name="txtInternetIssueReopenApp">Please Check Your Internet Connection And Re-Open App</string>
+    <string name="txtTryAfterSomeTimeError">Please try after some time</string>
+    <string name="txtAuthorize">Authorization</string>
+    <string name="txtEnterPasswordTitle">Enter Password</string>
+    <string name="txtCancel">Cancel</string>
+    <string name="txtDone">Done</string>
+    <string name="txtEnterPwd">EnterPassword</string>
+    <string name="txtOk">Ok</string>
+    <string name="txtNotOk">Not Ok</string>
+    <string name="txtStop">Stop</string>
+    <string name="txtMicokNotOkText">If you could hear the recorded voice properly, please press ok button to pass the test. Else, press not ok button.</string>
+    <string name="txtSpeakerokNotOkText">If you could hear the music played properly, please press ok button to pass the test. Else, press not ok button</string>
+    <string name="txtMicStopDescription">Please press Stop button if you have finished recording</string>
+    <string name="txtNo">No</string>
+    <string name="txtYes">Yes</string>
+    <string name="txtIAccept">I Agree</string>
+    <string name="txtRemoveMe">Remove ME</string>
+    <string name="txtPasswordCancelScreen">MegaMMR needs to authenticate you before permitting you in the app. Please try again with a valid password.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txtExceptions">Exceptions</string>
+    <string name="txtUDI">UDI</string>
+    <string name="txtMethodName">Method Name</string>
+    <string name="txtTimeStamp">Time Stamp</string>
+    <string name="txtExceptionsDetail">Exception Detail</string>
+    <string name="txtExceptionDetail">Exception Detail</string>
+    <string name="txtStackTrace">Stack Trace</string>
+    <string name="txtManualSemiAutomatic">Semi Automatic</string>
+    <string name="txtManualTestScreen">Manual</string>
+    <string name="txtBarcode">Barcode Scan</string>
+    <string name="txtCompleteOrderStore">Order InStore</string>
+    <string name="txtCompleteOrderHere">Order Now</string>
+    <string name="txtLogin">Login</string>
+    <string name="txtChannelCode">Channel Code</string>
+    <string name="txtStoreCode">Store Code</string>
+    <string name="txtEnterChannelCode">Enter Channel Code</string>
+    <string name="txtEnterStoreCode">Enter Store Code</string>
+    <string name="txtDeviceCasingTest">Check the device casing including camera for any damage. Is the device free from any major scratches, dents or cracks? Click yes if device has only light wear and tear but no cracks and other major damages, else click no.
+</string>
+    <string name="txtcompassTest">Rotate your phone on its horizontal axis to complete a 360° circle.</string>
+    <string name="txtfngerprintTest">No fingerprint configured. Please register at least on finger in your device\'s settings.</string>
+    <string name="txtaccelerometerTest">Rotate your phone.</string>
+    <string name="DeviceCasing">Device Casing</string>
+    <string name="txtAvailableRam">Available RAM</string>
+    <string name="txtUsedRam">Used RAM</string>
+    <string name="txtMicPlayInstructions">Please tap on the play icon to hear your recorded voice.</string>
+    <string name="txtSystemStorageAvailable">Available System Storage</string>
+    <string name="enter_code">Enter Code</string>
+    <string name="title_activity_main_screen">MainScreen</string>
+    <string name="title_activity_custom_alert">CustomAlertActivity</string>
+    <string name="acctest">Move phone vertically up down for more than once.</string>
+    <string name="flashtestqstn">Did Flash Blink three times</string>
+    <string name="please_check_internet_Connection">There was an error processing your request. Please check your internet connection and try again.</string>
+    <string name="app_name2">Office Works</string>
+    <string name="Auto">Auto</string>
+    <string name="flashlight">Flashlight</string>
+    <string name="flash">  Flash</string>
+    <string name="compass">Compass</string>
+    <string name="fingerprint">Fingerprint</string>
+    <string name="acclerometer">Accelerometer</string>
+    <string name="facedetection">Face Detection</string>
+    <string name="barometer">Barometer</string>
+    <string name="fingerprintsensortest">FingerPrint Sensor Test</string>
+    <string name="placefinger">Place your finger on the fingerprint sensor.</string>
+    <string name="flashlightTest"><![CDATA[Tap start to begin the test. The light will flash 3 times. Tap yes if it does, else tap no]]></string>
+    <string name="compassdesc">Rotate your phone on its horizontal axis to complete a 360° circle.</string>
+    <string name="nofingerconfigured">There is no fingerprint configured on this phone. Please add a fingerprint in your device\’s settings to perform this test.</string>
+    <string name="finger_out_of_move">The fingerprint doesn\'t match for multiple times please wait for some time and try again.</string>
+    <string name="personaluse">Personal Use</string>
+    <string name="corporate">Corporate</string>
+    <string name="txtBluetoothPermission">App wants to turn Bluetooth ON for this device.</string>
+    <string name="txtBluetooth">Bluetooth Permission</string>
+    <string name="fingerlimit">Test Limit Exceeded</string>
+    <string name="fingererror">Too many failed attempts test failed.</string>
+    <string name="switch_desc">All interactive tests will now run one after the other. To select and run tests, turn off the toggle.</string>
+    <string name="allPermissions">In order to inspect your device fully, Office Works needs access to:</string>
+    <string name="permissionrqrd">Permission Requested</string>
+    <string name="app_name3">Office Works</string>
+    <string name="scan">Scan</string>
+    <string name="touch_desc">Touch the screen with at least 2 fingers.
+</string>
+    <string name="appVersion">App Version 1.11</string>
+
+    <string name="scan_qr_code">Scan QR Code</string>
+
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Closed</string>
+    <string name="Sync">Sync</string>
+    <string name="exit_msg">  <![CDATA[Are you sure you want to exit Office Works?]]></string>
+    <string name="home">Home</string>
+<string name="previous">Previous</string>
+    <string name="no_record_found">No records found.</string>
+    <string name="past_report">Past Report</string>
+    <string name="rationale_ask_again">This app may not work correctly without the requested permissions. Open the app settings screen to modify app permissions.</string>
+    <string name="please_check_internet_connection">There was an error processing your request. Please check your internet connection and try again.</string>
+    <string name="internet_connection">Alert!</string>
+    <string name="title_settings_dialog">Permissions Required</string>
+    <string name="message_notify_text">NOTE: The app will now prompt you to allow it to be set as the default messaging app. This is a temporary change and is required for certain features of this app to work.
+Please note that the default messaging app will be reverted back to the original immediately after the requirement of this app is over.
+</string>
+    <string name="about_us">About us</string>
+    <string name="aboutus_des">         <![CDATA[<p style="text-align:justify">Since 2010, Veridic Technologies has been working as a full-service IT consultancy & solutions partner, dedicated to maximizing the growth of used mobile businesses across the globe. Our clients include Enterprises, SMEs & Startups from Retailers, Wholesalers, Distributors, Telecom Operators, Office Works Providers, Warehouse Providers & Mobile Phone Recyclers.</p>
+ <p style="text-align:justify">Originally, built as an outsourcing firm for Brightstar Corporation (a USD 10 Billion company) by Mr. Ankur Thakur, now Veridic has risen to become an internationally known brand. We have a dedicated team of experts, mid & junior level 150+ employees operating from 2 offices, India & UK. </p>
+ <p style="text-align:justify">Some of the esteemed users of our products & solutions are Brightstar, Belmont, Apple, Vodafone, EE, Claro, Telcel, Telecom Italia, T Mobile, as entities using our solutions. </p>
+ <p style="text-align:justify">Note: Veridic Technologies reserves all rights for  Office Works application. Any unauthorized copying, printing, reproduction, dissemination, distribution in any form is strictly prohibited.</p>
+]]></string>
+    <string name="support">Support Chat</string>
+    <string name="max_limit">We have reached the maximum number of devices that can be scanned. Please try after sometime or on some other counter.</string>
+
+    <string name="submit_request">Are you sure you want to sync the diagnostic test Data?</string>
+
+    <string name="volume_up">Volume Up</string>
+    <string name="volume_down">Volume Down</string>
+    <string name="back_camera">Back Camera</string>
+    <string name="front_camera">Front Camera</string>
+    <string name="white_display">White Display</string>
+    <string name="black_display">Black Display</string>
+    <string name="txtPermissionMessage2">This app does not have access to your device\'s camera. You can enable access in app permissions.</string>
+    <string name="txtPermissionMessage3">This app does not have access to your device\'s storage. You can enable access in app permissions.</string>
+    <string name="order_confirmed">Order confirmed</string>
+    <string name="request_fail">Sync failed. Please try again later</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="error_city">Please enter a valid city.</string>
+    <string name="error_first_name">Please enter a valid first name.</string>
+    <string name="error_last_name">Please enter a valid last name.</string>
+    <string name="error_secret">Please enter a valid secret code</string>
+    <string name="error_post2">Please enter a valid state code.</string>
+    <string name="error_post">Please enter a valid postal code.</string>
+    <string name="error_mail">Please enter a valid email address.</string>
+    <string name="error_contact">Please enter a valid phone number.</string>
+    <string name="error_valid_contact">Please enter a valid contact number</string>
+    <string name="error_valid_mail">Please enter a valid email address.</string>
+    <string name="error_confirm_mail">Please enter a valid confirm email address</string>
+    <string name="error_address_one">Please enter a valid address</string>
+    <string name="txt_first_name">First Name*</string>
+    <string name="txt_confirm_email">Confirm Email*</string>
+    <string name="txt_next">NEXT</string>
+
+    <string name="txt_confirmation">I hereby declare I have accessed my device’s condition accurately and that I understand the offered price is subject to quality verification at Office Works\'s warehouse.</string>
+    <string name="txtemail">Email</string>
+    <string name="txt_post_code">Post Code*</string>
+    <string name="txt_address_line_2">Address Line 2</string>
+    <string name="txt_address_line_1">Address Line 1*</string>
+    <string name="txt_address_line_3">Address Line 3</string>
+    <string name="asteriskred"><![CDATA[<font color=\'#cc0029'>*</font>]]></string>
+    <string name="txt_contact_number">Contact Number</string>
+    <string name="identityValue">Please Enter Your ID Number</string>
+    <string name="proof_of_identity">Proof of Identity</string>
+    <string name="error_image">Please add  image of your identity</string>
+    <string name="selectid">Please Select ID</string>
+    <string name="declaration">Declaration</string>
+    <string name="receipt">Receipt</string>
+    <string name="txt_customer_receipt">Customer Receipt</string>
+    <string name="txt_email_label">EMAIL LABEL</string>
+    <string name="txt_finish">Finish</string>
+    <string name="txt_from">FROM</string>
+    <string name="txt_to">To</string>
+    <string name="txt_device_name">Device Name:</string>
+    <string name="txt_storage">Storage:</string>
+    <string name="verifymanualtradebel">VerifyTradableManual</string>
+    <string name="non_tradele">Your device is not tradable in our system.</string>
+    <string name="non_tradele_desc">However, we have shared the details of your device with support team and they will contact you.</string>
+    <string name="support_text">Meanwhile, you have any queries then please forward them to</string>
+    <string name="txt_confirmation1">I want to share my Email-ID with Support team for further communication.</string>
+    <string name="txtEnteremail">Enter Email</string>
+    <string name="message_permission">This app needs message permission to make app as default message app.</string>
+    <string name="somethingwentwrong">Something went wrong</string>
+    <string name="txtSecretCodehint">Secret Code</string>
+    <string name="api_error_toast">There was an error processing your request. Please check your internet connection and try again.</string>
+    <string name="server_error_toast">There is something went wrong with server please try again.</string>
+    <string name="internet_error_toast">There is something went wrong with your Internet Connection Please reset your Internet Connection and try again.</string>
+    <string name="size_error_toast">Image size should not be greater than 5MB.</string>
+    <string name="resendpassword">Secret code has been sent successfully!</string>
+    <string name="frank_order_complete">An Office Works account has been auto-created for you.We have emailed you the login details and an order confirmation to your registered email address.Refer to shipping instructions provided in the email to ship your device to our warehouse for final valuation.\n\nThanks again for participating in our
+trade-in program.</string>
+    <string name="thank_you_trade_in">Thank you for your trade-in!</string>
+    <string name="email_address">Email Address:</string>
+    <string name="transection_id">Transaction ID</string>
+    <string name="order_date">Order Date</string>
+    <string name="offer_value">Offer Value</string>
+    <string name="device_name">Device Name</string>
+    <string name="device_imei">Device IMEI</string>
+
+    <string name="payment_amount">Payment Amount</string>
+    <string name="error_payment_amount">Please enter a valid payment amount.</string>
+    <string name="error_refrence_code">Please enter a valid reference code.</string>
+    <string name="error_account_number">Please enter a valid beneficiary account number.</string>
+    <string name="error_bank_name">Please enter a valid beneficiary bank name.</string>
+    <string name="error_refrence_number">Please enter a valid payment reference number.</string>
+    <string name="error_sort_code">Please enter a valid beneficiary sort code.</string>
+    <string name="eerror_customer_account_number">Please enter a valid customer account number.</string>
+    <string name="error_mobile_number">Please enter mobile number.</string>
+    <string name="error_note">Please enter note.</string>
+    <string name="payment_details">Payment Details</string>
+    <string name="txt_state_code">State Code</string>
+    <string name="perm_necessary">Permissions are necessary for the correct work of the application and the performance of all functions</string>
+    <string name="incorect_code">The secret code you entered is incorrect. Please check your email for the latest code received.</string>
+    <string name="mic_permission">This app does not have access to your device\'s microphone. You can enable access in app permissions.</string>
+    <string name="resendcode">Resend  code</string>
+    <string name="creditfordevice">Credit for device:</string>
+    <string name="error_customer_bank_name">Please enter customer bank name.</string>
+    <string name="help_text">\n\n Tap the above to proceed.</string>
+    <string name="tapnext">Tap \'Next\' to proceed to device valuation.</string>
+    <string name="oops2">Oops! The volume down button doesn’t work.</string>
+    <string name="oops">Oops! The volume up button doesn’t work.</string>
+    <string name="errorbenificiarymail">Please enter a valid beneficiary email.</string>
+    <string name="errorbenificiarynumber" >Please enter a valid beneficiary number.</string>
+    <string name="payname">Please enter a valid name.</string>
+    <string name="paynameerror" >Please enter a valid name.</string>
+    <string name="benebank" >Please enter a valid beneficiary bank name.</string>
+
+</resources>

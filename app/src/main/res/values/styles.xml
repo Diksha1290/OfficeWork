@@ -1,0 +1,314 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="colorPrimary">@color/Black</item>-->
+        <!--<item name="colorPrimaryDark">#1F4999</item>-->
+
+        <item name="android:autofilledHighlight">@color/colorAccent</item>
+        <item name="colorAccent">@color/app_blue_color</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Widget"></style>
+
+    <style name="ToolbarColoredBackArrow" parent="AppTheme">
+        <item name="android:textColorSecondary">#fff</item>
+    </style>
+    <style name="SwitchManualScreen.control" parent="">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">#7ED321</item>
+        <item name="colorSwitchThumbNormal">@color/grayy</item>
+
+
+    </style>
+    <style name="CodeFont" parent="android:Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowNoTitle">true</item>
+
+    </style>
+    <style name="Text_Bottom_Navigation">
+        <item name="android:textSize">@dimen/design_bottom_navigation_text_size_</item>
+        <item name="android:padding">0dp</item>
+
+    </style>
+
+    <style name="Widget.TextViewHeading">
+        <item name="android:textColor">@color/app_blue_color</item>
+        <item name="android:textColorHint">@color/disabledGray</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+    <style name="Widget.TextViewHeadingNormal">
+        <item name="android:textColor">@color/disabledGray</item>
+        <item name="android:textColorHint">@color/disabledGray</item>
+        <item name="android:textSize">@dimen/text_normal</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+    <style name="Widget.TextViewHeadingNormalText">
+        <item name="android:lineSpacingMultiplier">1.3</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textColorHint">@color/Black</item>
+        <item name="android:textSize">@dimen/text_basic</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+    <style name="Widget.EditText">
+        <item name="android:textColor">@color/themeGreen</item>
+        <item name="android:textColorHint">@color/disabledGray</item>
+        <item name="android:textSize">@dimen/text_normal</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+    <style name="Widget.EditText_Multiline">
+        <item name="android:textColor">@color/themeGreen</item>
+        <item name="android:textColorHint">@color/disabledGray</item>
+        <item name="android:textSize">@dimen/text_normal</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+    <style name="Widget.TextViewMMRBranding">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:textColor">@color/disabledGray</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+
+    </style>
+
+    <style name="Fill">
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:textColor">@color/Black</item>
+    </style>
+
+    <style name="Wrap">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/Black</item>
+    </style>
+
+    <style name="Fill.Wrap">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:textColor">@color/Black</item>
+    </style>
+
+    <style name="Widget.Buttonlarge" parent="Fill.Wrap">
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:background">@drawable/selector_button</item>
+        <item name="android:textColor">@color/Black</item>
+    </style>
+
+    <style name="Widget.TextView">
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+    <style name="Widget.TextViewUrl">
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="Widget.TextView_Automation_Test">
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+
+    <style name="Widget.TextView_Large">
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textSize">@dimen/text_large</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+    <style name="Widget.TextView_Small">
+        <item name="android:textColor">@color/disabledGray</item>
+        <item name="android:textSize">@dimen/text_small</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+    <style name="Widget.ViewDivider">
+        <item name="android:background">@color/disabledGray_opaque</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+    <style name="Widget.TextView_WhiteColor">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_normal</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+    <style name="Widget.Button">
+        <item name="android:background">@color/disabledGray</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:singleLine">true</item>
+        <!--<item name="android:textStyle">bold</item>-->
+        <item name="android:textSize">@dimen/text_normal</item>
+        <!--<item name="android:inputType">textCapSentences</item>-->
+    </style>
+
+    <style name="Widget.ButtonRegister">
+        <item name="android:background">@color/disabledGray</item>
+        <item name="android:textColor">@color/disabledGray</item>
+        <item name="android:singleLine">true</item>
+        <!--<item name="android:textStyle">bold</item>-->
+        <item name="android:textSize">@dimen/text_normal</item>
+        <!--<item name="android:inputType">textCapSentences</item>-->
+    </style>
+
+    <style name="Widget.ButtonRegister_Purple">
+        <item name="android:background">@color/disabledGray</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:singleLine">true</item>
+        <!--<item name="android:textStyle">bold</item>-->
+        <item name="android:textSize">@dimen/text_normal</item>
+        <!--<item name="android:inputType">textCapSentences</item>-->
+    </style>
+
+    <style name="Widget.ButtonIncomeScreen">
+        <item name="android:background">@color/disabledGray</item>
+        <item name="android:textColor">@color/disabledGray</item>
+        <item name="android:singleLine">true</item>
+        <!--<item name="android:textStyle">bold</item>-->
+        <item name="android:textSize">@dimen/text_normal</item>
+        <!--<item name="android:inputType">textCapSentences</item>-->
+    </style>
+
+    <style name="Text_Navigation_Drawer">
+        <item name="android:textStyle">bold</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/text_basic1</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+    <style name="Text_Large" parent="Widget.TextView">
+        <item name="android:textSize">@dimen/text_large</item>
+        <item name="android:textColor">@color/disabledGray</item>
+    </style>
+
+    <style name="Text_XLarge" parent="Widget.TextView">
+        <item name="android:textSize">@dimen/text_Xlarge</item>
+        <item name="android:textColor">@color/disabledGray</item>
+    </style>
+
+    <style name="Text_Normal" parent="Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_normal</item>
+    </style>
+
+    <style name="Text_NormalNew" parent="Widget.TextView">
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textSize">@dimen/text_normal</item>
+    </style>
+
+
+    <style name="Text_Small" parent="Widget.TextView">
+        <item name="android:textColor">@color/disabledGray</item>
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+
+    <style name="Text_Title" parent="Widget.TextView">
+        <item name="android:textColor">@color/disabledGray</item>
+        <item name="android:textSize">@dimen/text_Title</item>
+    </style>
+
+    <style name="Text_Medium" parent="Widget.TextView">
+        <item name="android:textColor">@color/disabledGray</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/baseBackground</item>
+        <item name="android:textSize">@dimen/text_normal</item>
+    </style>
+
+    <style name="buttonStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/bg_button_purple</item>
+    </style>
+
+    <declare-styleable name="ArcProgress">
+        <attr name="arc_progress" format="integer" />
+        <attr name="arc_angle" format="float" />
+        <attr name="arc_stroke_width" format="dimension" />
+        <attr name="arc_max" format="integer" />
+        <attr name="arc_unfinished_color" format="color" />
+        <attr name="arc_finished_color" format="color" />
+        <attr name="arc_text_size" format="dimension" />
+        <attr name="arc_text_color" format="color" />
+        <attr name="arc_suffix_text" format="string" />
+        <attr name="arc_suffix_text_size" format="dimension" />
+        <attr name="arc_suffix_text_padding" format="dimension" />
+        <attr name="arc_bottom_text" format="string" />
+        <attr name="arc_bottom_text_size" format="dimension" />
+    </declare-styleable>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <declare-styleable name="DotProgressBar">
+        <attr name="startColor" format="color" />
+        <attr name="endColor" format="color" />
+        <attr name="duration" format="integer" />
+        <attr name="amount" format="integer" />
+        <attr name="animationDirection" format="enum">
+            <enum name="right" value="1" />
+            <enum name="left" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <style name="TextInputLayout" parent="Widget.TextView">
+        <item name="android:layout_marginLeft">@dimen/_10sdp</item>
+        <item name="android:layout_marginRight">@dimen/_10sdp</item>
+        <item name="android:layout_marginTop">@dimen/_5sdp</item>
+    </style>
+    <style name="TextCustomerInfo" parent="Widget.TextView">
+        <item name="android:drawablePadding">@dimen/_5sdp</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+
+
+
+
+
+    <style name="Theme.AppCompat.Translucent" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:statusBarColor">@color/Black</item>
+        <item name="android:windowBackground">@drawable/background_splash</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!--<item name="android:backgroundDimEnabled">false</item>-->
+    </style>
+
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textAllCaps">false</item>
+    </style>
+</resources>

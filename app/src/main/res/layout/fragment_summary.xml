@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:id="@+id/summaryLL"
+    tools:context=".fragments.SummaryFragment">
+
+    <LinearLayout
+        android:id="@+id/main_parent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="100"
+        android:orientation="vertical"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:background="@color/white"
+                    android:elevation="@dimen/_15dp"
+                    card_view:cardCornerRadius="10dp"
+                    card_view:cardMaxElevation="@dimen/_20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="horizontal"
+                        android:padding="1dp"
+                        android:weightSum="100">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/_10dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="70"
+                            android:orientation="vertical">
+
+                            <com.officework.customViews.GilroyLightTextView
+                                android:id="@+id/order_id_text"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white"
+                                android:padding="@dimen/_10dp"
+                                android:text="@string/total_test"
+                                android:textColor="@color/Black"
+                                android:textSize="@dimen/about_us"
+
+                                />
+
+                            <com.officework.customViews.GilroyLightTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white"
+                                android:padding="@dimen/_10dp"
+                                android:text="@string/passed"
+                                android:textColor="@color/Black"
+                                android:textSize="@dimen/_16sp" />
+
+
+                            <com.officework.customViews.GilroyLightTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white"
+                                android:padding="@dimen/_10dp"
+                                android:text="@string/failed"
+                                android:textColor="@color/Black"
+                                android:textSize="@dimen/_16sp"
+
+                                />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.3"
+                            android:background="@color/dark_grey" />
+
+                        <LinearLayout
+                            android:layout_width="@dimen/_10dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="30"
+                            android:orientation="vertical">
+
+                            <com.officework.customViews.GilroyExtraboldTextView
+                                android:id="@+id/totaltestTV"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white"
+                                android:padding="@dimen/_10dp"
+                                android:text=""
+                                android:textColor="@color/Black"
+                                android:textSize="@dimen/about_us"
+                                android:textStyle="bold"
+
+                                />
+
+                            <com.officework.customViews.GilroyExtraboldTextView
+                                android:id="@+id/passedtestTV"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white"
+                                android:padding="@dimen/_10dp"
+                                android:text=""
+                                android:textColor="@color/Black"
+                                android:textSize="@dimen/_16sp"
+
+                                />
+
+                            <com.officework.customViews.GilroyExtraboldTextView
+                                android:id="@+id/failedtestTV"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white"
+                                android:padding="@dimen/_10dp"
+                                android:text=""
+                                android:textColor="@color/RedColor"
+                                android:textSize="@dimen/_16sp"
+
+                                android:textStyle="bold"
+
+                                />
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/summeryRV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/card_view"
+                    android:layout_marginTop="@dimen/_10dp"
+                    android:clipToPadding="false"
+                    android:nestedScrollingEnabled="false"
+                    android:scrollbars="vertical" />
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/termslayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.officework.customViews.GilroyLightTextView
+            android:id="@+id/privacy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10dp"
+            android:gravity="center_vertical"
+            android:text="@string/reperform_text" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/_20dp"
+            android:gravity="center_horizontal|bottom"
+            android:orientation="horizontal"
+
+            android:padding="@dimen/_10dp">
+
+            <Button
+                android:id="@+id/retestBT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/blue_bg"
+                android:text="@string/txtRetest"
+                android:minWidth="@dimen/_100sdp"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:layout_marginRight="@dimen/_10sdp"
+                 />
+
+            <!--        <View-->
+            <!--            android:layout_width="35dp"-->
+            <!--            android:layout_height="1dp"/>-->
+
+            <Button
+                android:id="@+id/nextBT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="@dimen/_100sdp"
+                android:layout_gravity="center"
+                android:background="@color/btn_green"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:text="@string/textNext"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_congrats"
+    android:layout_height="match_parent">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_margin="@dimen/_10dp"
+      android:gravity="center">
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_weight="7"
+          android:layout_height="wrap_content"
+          android:src="@drawable/strip_left"
+          />
+      <TextView
+          android:layout_width="0dp"
+          android:layout_weight="86"
+          android:layout_height="wrap_content"
+          android:text="@string/congratulations"
+          android:textColor="@color/Black"
+          android:textStyle="bold"
+          android:textSize="25sp"
+          android:gravity="center"
+          android:singleLine="true"
+          android:paddingTop="@dimen/_20dp"
+          android:paddingBottom="@dimen/_20dp"
+
+          />
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_weight="7"
+          android:layout_height="wrap_content"
+          android:src="@drawable/strip_right"
+          />
+
+  </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/underline_dots"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/order_mesage"
+        android:id="@+id/message"
+        android:gravity="center"
+        android:textColor="@color/Black"
+        android:textSize="16sp"
+        android:padding="@dimen/_15dp"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="@dimen/_10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/order_id"
+            android:gravity="center"
+            android:textColor="@color/Black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/order_id"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/_10dp"
+            android:textColor="@color/Black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$7321"
+        android:id="@+id/price"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_margin="@dimen/_20dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="@dimen/_5dp"
+        android:background="@drawable/bg_round_blue"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/complete"
+        android:text="@string/complete"
+        android:background="@drawable/blue_bg"
+        android:layout_gravity="center|bottom"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:padding="@dimen/_10dp"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/white"
+        />
+    </RelativeLayout>
+
+</LinearLayout>

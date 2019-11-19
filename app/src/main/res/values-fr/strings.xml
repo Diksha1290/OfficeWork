@@ -1,0 +1,512 @@
+﻿<resources>
+    <string name="app_name">mCheck2.0</string>
+
+    <!--Generics-->
+    <string name="Ok">D\'accord</string>
+    <string name="textNext">Prochain</string>
+    <string name="textSkip">Sauter</string>
+    <string name="txtInqueue">Dans la queue</string>
+    <string name="loaderTxt">Chargement</string>
+    <string name="searchingTxt">Recherche</string>
+    <string name="txtConfirm">Confirmer</string>
+    <string name="txtContinue">Continuer</string>
+    <string name="Cancel">Annuler</string>
+    <string name="Done">Terminé</string>
+    <string name="Yes">Oui</string>
+    <string name="No">Non</string>
+    <string name="Submit">Soumettre</string>
+    <string name="Reset">Réinitialiser</string>
+    <string name="Back">Arrière</string>
+    <string name="quit_app">Voulez-vous vraiment quitter l\'application?</string>
+    <string name="logout_app">Êtes-vous certain de vouloir vous déconnecter?</string>
+    <string name="ServerError">Quelque-chose s\'est mal passé. Veuillez vérifier votre connexion Internet ou réessayer plus tard.</string>
+    <string name="InternetError">Veuillez activer Internet et réessayer ultérieurement.</string>
+    <string name="InvalidLoginCreds">Veuillez saisir une ID ou un mot de passe correct</string>
+    <string name="loaderMsg">Merci de patienter pendant le traitement de votre demande ..</string>
+    <string name="navigation_drawer_open">Ouvrir le tiroir de navigation</string>
+    <string name="navigation_drawer_close">Fermer le tiroir de navigation</string>
+    <string name="txtInternetIssue">Veuillez vérifier votre connexion Internet.</string>
+
+    <!--Dashboard Screen-->
+    <string name="txtDeviceInfo">Info \nappareil</string>
+    <string name="txtAutomatedTest">Tests \nautomatisés</string>
+    <string name="txtManualTest">Essais \nmanuels</string>
+    <string name="txtBuyBack">Commerce - In \ nMon Appareil</string>
+    <string name="txtQRCode">Obtenir \nun code barre</string>
+
+    <!--Device Info Screen-->
+    <string name="txtTabNamesHardware">Matériel</string>
+    <string name="txtTabNamesSystem">Système</string>
+    <string name="txtTabNamesBattery">Batterie</string>
+    <string name="txtTabNamesNetwork">Réseau</string>
+    <string name="txtTabNamesCamera">Caméra</string>
+
+    <!--Hardware-->
+    <string name="txtProcessor">Processeur</string>
+    <string name="txtHardware">Matériel</string>
+    <string name="txtCPU">CPU</string>
+    <string name="txtProcess">Processus</string>
+    <string name="txtCores">Cores</string>
+    <string name="txtFrequencies">Fréquences</string>
+    <string name="txtGovernor">Gouverneur</string>
+    <string name="txtVendor">Vendeur</string>
+    <string name="txtOpenGl">OpenGL</string>
+
+    <!--Graphics-->
+    <string name="txtGraphics">Graphique</string>
+    <string name="txtGPU">GPU</string>
+    <string name="txtMax_frequency">Fréquence maximale</string>
+    <string name="txtResolution">Résolution</string>
+    <string name="txtScreen_density">Densité d\'écran</string>
+    <string name="txtScreen_size">Taille de l\'écran</string>
+    <string name="txtFrame_rate">Fréquence d\'images</string>
+
+    <!--Memory-->
+    <string name="txtMemory">Mémoire</string>
+    <string name="txtRamSize">Taille RAM </string>
+
+    <!--Storage-->
+    <string name="txtStorage">Stockage</string>
+    <string name="Capacity">Stockage interne</string>
+    <string name="txtSystemStorage">Système de stockage</string>
+    <string name="txtStorageAvailable">Stockage interne disponible</string>
+    <string name="txtIOScheduler">Planificateur d\'E / S</string>
+    <string name="txtReadAhead">Lire attentivement</string>
+    <string name="txtDecryptPass">TWVnYU1NUjk4NzY1NDMyMQ==</string>
+    <!--System-->
+    <string name="txtSystem">Système</string>
+    <string name="Model">Modèle</string>
+    <string name="txtCodename">Nom de code</string>
+    <string name="Manufacturer">Fabricant</string>
+    <string name="SerialNumber">Numéro de série</string>
+    <string name="txtBoot_loader">Chargeur de démarrage</string>
+    <string name="txtRadio">Radio</string>
+    <string name="IMEI1">IMEI 1</string>
+    <string name="IMEI2">IMEI 2</string>
+    <string name="txtDevice_ID">Reference de l\'appareil</string>
+    <string name="OperatingSystem">Système opérateur</string>
+    <string name="txtRootAccess">Accès Root</string>
+    <string name="txtBusy_box">Boîte occupée</string>
+    <string name="OperatingSystemVersion">Android Version</string>
+    <string name="txtBuild">Construire</string>
+    <string name="txtSDK">SDK</string>
+    <string name="txtKernel">Kernel</string>
+    <string name="txtPermissionDenied">Non autorisé par l\'utilisateur</string>
+    <string name="txtPermissionRoot">L\'appareil est enraciné</string>
+    <string name="txtPermissionRootNot">L\'appareil n\'est pas enraciné</string>
+    <string name="txtUnavailable">Indisponible</string>
+
+
+    <!--Battery-->
+    <string name="txtStatus">statut</string>
+    <string name="txtStatusCharging">Se charge</string>
+    <string name="txtStatusDischarging">Déchargement</string>
+    <string name="txtStatusFull">Plein</string>
+    <string name="txtStatusNot_Charging">Pas de charge</string>
+    <string name="txtLevel">Niveau</string>
+    <string name="txtTemperature">Température</string>
+    <string name="txtInformation">Information</string>
+    <string name="txtTechnology">La technologie</string>
+    <string name="txtUnknown">Inconnu</string>
+    <string name="BatteryCondition">Santé</string>
+    <string name="txtHealthDead">Mort</string>
+    <string name="txtHealthGood">Bien</string>
+    <string name="txtHealthOver_Voltage">Surtension</string>
+    <string name="txtHealthOver_Heat">Sur la chaleur</string>
+    <string name="txtHealthFailure">Échec</string>
+    <string name="txtVoltage">Tension</string>
+    <string name="txtVoltageV">V</string>
+    <string name="txtCurrent">Courant</string>
+    <string name="txtCapacity">Capacité</string>
+    <string name="txtPlugInTypeUSB">USB</string>
+    <string name="txtPlugInTypeAC">AC</string>
+
+    <!--Network-->
+    <string name="txtWifi">Wifi</string>
+    <string name="txtNetwork">Réseau</string>
+    <string name="txtBSSID">BSSID</string>
+    <string name="txtDHCPServer">DHCP Server</string>
+    <string name="txtGateway">passerelle</string>
+    <string name="txtIPaddress">adresse IP</string>
+    <string name="txtLinkSpeed">Vitesse de liaison</string>
+    <string name="MACAddress">Adresse Mac</string>
+    <string name="txtSignalstrength">Force du signal</string>
+    <string name="txtPublicIP">Public IP</string>
+    <string name="txtMobile">Mobile</string>
+    <string name="txtCallFunctionHeading">Diagnostic…</string>
+    <string name="txtOperator">Opérateur</string>
+    <string name="txtOperatorcode">Code de l\'opérateur</string>
+    <string name="txtRoaming">Roaming</string>
+    <string name="CDMAGSM">Type de téléphone</string>
+    <string name="txtNetworktype">Type de réseau</string>
+    <string name="txtWif">WIFI</string>
+    <string name="txtNet">MOBILE</string>
+    <string name="txtDbm"> dBm</string>
+    <string name="txtWiEnable">Wifi activé</string>
+    <string name="txtMobEnable">Données mobiles activées</string>
+    <string name="txtNotEnable">Pas connecté à Internet</string>
+    <string name="txtSimConnect">Connecté</string>
+    <string name="txtSimDisconnect">Déconnecté</string>
+    <string name="txtSimNetworkLock">Réseau verrouillé</string>
+    <string name="txtSimPukRequired">PUK requis</string>
+    <string name="txtSimPinRequired">Broche requise</string>
+    <string name="txtSimUnkown">Inconnu</string>
+    <string name="txtSimNone">Aucun</string>
+    <string name="txtRoamEnable">Activée</string>
+    <string name="txtRoamDisabled">désactivé</string>
+    <string name="txtRoamNotAvail">Pas de connection</string>
+    <string name="txtTypeCDMA">CDMA</string>
+    <string name="txtTypeGSM">GSM</string>
+    <string name="txtTypeNone">AUCUN</string>
+
+    <!--Camera-->
+    <string name="txtPrimaryCamera">Caméra principale</string>
+    <string name="txtSecondaryCamera">Appareil photo secondaire</string>
+
+    <string name="txtFocallength">Distance focale</string>
+    <string name="txtFocusmodes">Modes de mise au point</string>
+    <string name="txtJPEGquality">Qualité JPEG</string>
+    <string name="txtImageformat">Format d\'image</string>
+    <string name="txtSensors">Capteurs</string>
+    <string name="txtSensorinfo">Informations sur le capteur</string>
+    <string name="txtAccelerometer">Accéléromètre</string>
+    <string name="txtLightsensor">Capteur de lumière</string>
+    <string name="txtProximitysensor">Capteur de proximité</string>
+    <string name="txtFocusFIA">Fixe, Infini, Auto</string>
+    <string name="txtFocusFI">Fixe, Infini</string>
+    <string name="txtFocusAI">Infini,Auto</string>
+    <string name="txtFocusAF">Correction, Auto</string>
+    <string name="txtFocusAuto">Auto</string>
+    <string name="txtFocusFixed">Fixé</string>
+    <string name="txtFocusInfinity">Infini</string>
+
+    <string name="txtTermCondition">Conditions &amp; Conditions</string>
+
+    <!--Automation Test-->
+    <string name="txtAlertDialog">Vous avez sélectionné Diagnostics automatisés.</string>
+    <string name="txtAlertDialogSmartRun">Vous avez démarré Mega Smart Run for Diagnostics.</string>
+    <string name="PhoneVibrator">Vibration</string>
+    <string name="txtSpeakerMic">Haut-parleur &amp; Mic</string>
+    <string name="BluetoothActivation">Bluetooth</string>
+    <string name="WiFiActivation">Wifi</string>
+    <string name="SIMCardRemoved">Carte SIM retirée</string>
+    <string name="SdCardRemoved">Carte SD supprimée</string>
+    <string name="txtBattery">Santé de la batterie</string>
+    <string name="txtPass">Vérifié</string>
+    <string name="txtManualPass">Test réussi</string>
+
+    <string name="txtInProgress">Vérification</string>
+    <string name="txtFail">Oops!</string>
+    <string name="txtAlertTitleGreat">Génial !</string>
+    <string name="txtAlertTitleGreatAlert">Alerte !</string>
+
+    <string name="txtLetsStart">Commençons !</string>
+    <string name="txtStart">Démarrer</string>
+    <string name="txtAlertBackPress">Patientez pendant que nous effectuons le diagnostic</string>
+    <string name="txtTestAgain">Appuyer de nouveau sur start pour tester.</string>
+    <string name="txtAutomationCompleted">Votre diagnostic automatisé a été fait.</string>
+
+    <!--Manual Test-->
+    <string name="txtManual">Diagnostics manuels</string>
+    <string name="txtManual_Test">Diagnostic</string>
+    <string name="txtManualCamera">Caméra</string>
+    <string name="txtManualSpeaker_test">Appuyez sur le bouton de lecture pour effectuer ce declarationTest. Cela va jouer de la musique via les enceintes du périphérique.</string>
+    <string name="txtManualSpeaker_test_Dialog">S\'il vous plaît confirmer si vous êtes en mesure d\'entendre la piste jouée correctement?</string>
+    <string name="txtManualMic_test_Dialog">Pouvez-vous entendre la voix que vous avez enregistrée?</string>
+    <string name="txtCount_test_Dialog">Etes-vous encore en train d\'effectuer ce declarationTest?</string>
+
+    <string name="Speaker">Orateur</string>
+    <string name="Mic">Mic</string>
+    <string name="txtCameraTestFail">Vous n\'avez pas cliqué sur une image, nous considérerons que l\'examen de la caméra a échoué</string>
+    <string name="txtFrontCameraTestFail">L\'examen de la caméra avant est échoué.</string>
+    <string name="txtBackCameraTestFail">L\'examen de la caméra arrière est échoué.</string>
+    <string name="txtTitleCamera">Veuillez capturer l\'image à partir de l\'avant &amp; Arrière et confirmer si elles sont fines.</string>
+    <string name="txtBackPressed">Êtes-vous sûr?</string>
+    <string name="txtBackPressedYes">Oui</string>
+
+    <!--<string name="EarphoneJack">Oreille & amp; Jack</string>-->
+    <string name="EarphoneJack">Jack</string>
+    <string name="txtManualEarJack_test">Veuillez insérer vos écouteurs / écouteurs dans la prise casque pour effectuer ce declarationTest.</string>
+    <string name="txtManualDisplayAlert">Alerte !</string>
+    <string name="txtManualDisplayYes">Oui</string>
+    <string name="txtManualDisplayNo">Non</string>
+    <string name="txtManualDisplayDeadPixel">Ce declarationTest va transformer l\'écran de votre téléphone complètement blanc pendant quelques secondes suivi de le rendre complètement noir afin que les pixels manquants sont clairement visibles. S\'il vous plaît observer l\'écran attentivement pour tester les problèmes</string>
+    <string name="DeadPixelWhite">Pixel mort blanc</string>
+    <string name="DeadPixelBlack">Black Dead Pixel</string>
+    <string name="txtManualDeadPixelWhiteXMLPass">Pixel mort blanc - Passer</string>
+    <string name="txtManualDeadPixelWhiteXMLFail">Pixel mort blanc - échec</string>
+    <string name="txtManualDeadPixelBlackXMLPass">Black Dead Pixel - Passer</string>
+    <string name="txtManualDeadPixelBlackXMLFail">Black Dead Pixel - Échec</string>
+    <string name="txtManualDeadPixelStartXML">Commencer le declarationTest</string>
+    <string name="txtManualDisplayDeadPixelMessageBlack">Avez-vous remarqué un pixel manquant à l\'écran?</string>
+    <string name="txtManualDisplayDeadPixelMessageWhite">Avez-vous remarqué un pixel manquant à l\'écran?</string>
+    <string name="txtManualTouchScreen">Etes-vous encore en train d\'effectuer ce declarationTest?</string>
+
+    <string name="txtManualDeadPixelWhite">Pouvez-vous voir 5 étoiles à l\'écran?</string>
+    <string name="txtManualDeadPixelBlack">Pouvez-vous voir 5 étoiles à l\'écran?</string>
+
+    <!--Volume Button Changes-->
+    <string name="txtManualVolume_Btn">Boutons de volume</string>
+    <string name="txtTitleVolume_Btn">Appuyez sur les boutons Augmenter volume et Réduction du volume pour effectuer ce declarationTest.</string>
+    <string name="VolumeUp">Monter le son</string>
+    <string name="VolumeDown">Baisser le volume</string>
+    <string name="PowerButton">Bouton d\'alimentation</string>
+    <string name="txtManualPower_test">Appuyez sur le bouton marche / veille pour effectuer ce declarationTest, puis déverrouillez votre téléphone pour revenir à cet écran.</string>
+    <string name="ChargingPort">Port de chargement</string>
+    <string name="txtPortTestedSuccess">Port testé avec succès, vous pouvez maintenant retirer le chargeur.</string>
+    <string name="txtTitleCharging">Veuillez brancher votre chargeur USB pour effectuer ce declarationTest.</string>
+    <string name="txtManualDisplay">Afficher</string>
+    <string name="MultiTouch">Multitouch</string>
+    <string name="txtManualMititouch_ALertText">% 1 $ s les doigts ont été touchés. S\'il vous plaît confirmer.</string>
+    <string name="txtManualMititouchToast">Veuillez toucher l\'écran avec plus de 1 doigt.</string>
+    <string name="txtManualMititouchRetryToast">Réessayez et s\'il vous plaît appuyez sur l\'écran avec atleast deux doigts.</string>
+    <string name="txtManualMititouchCongratsToast">Le declarationTest Congrats est réussi.</string>
+    <string name="ProximitySensor">Capteur de proximité</string>
+    <string name="txtManualProximityWorking">Capteur de proximité</string>
+    <string name="txtNoProximitySensor">Aucun détecteur de proximité trouvé!</string>
+    <string name="txtProximitySensorNear">Vous êtes à proximité: </string>
+    <string name="txtProximitySensorFar">Tu es loin: </string>
+    <string name="txtManualProximitySensor_test">Veuillez déplacer votre main au-dessus de l\'écran.</string>
+    <string name="ScreenTouch">Écran tactile</string>
+    <string name="txtManualScreenTouchPass">Ecran Touche réussie.</string>
+    <string name="txtManualScreenTouchHelp">Veuillez effacer tous les blocs Gris affichés à l\'écran en frottant votre doigt sur eux.</string>
+    <string name="txtManualScreenTouchComplete">Congrats vous écran tactile fonctionne bien. Maintenant, vous pouvez appuyer sur le bouton et continuer avec l\'autre examen.</string>
+    <string name="txtPowerBtnPressed">Bouton d\'alimentation enfoncé</string>
+    <string name="HomeButton">Accueil</string>
+    <string name="txtManualHomeTestWait">L\'application sera rechargée automatiquement ....</string>
+    <string name="txtManualHomeButton_test">Appuyez sur le bouton Accueil pour effectuer ce declarationTest et attendez quelques secondes pour que cet écran se charge de nouveau.</string>
+    <string name="SleepWakeButtons">Sommeil &amp; Réveiller</string>
+    <string name="txtLocked">Fermé à clef</string>
+    <string name="txtUnLocked">Désactivé</string>
+    <string name="txtManualSleepWake_test">Hey, je vais à l\'intérieur de votre appareil pour tester le sommeil appareil et le bouton de réveil. Appuyez sur votre bouton d\'alimentation.</string>
+    <string name="LightSensor">Capteur de lumière</string>
+    <string name="txtLightSensor">LUMIÈRE:</string>
+    <string name="txtManualLightSensor_test">Placez votre appareil près de la source lumineuse.</string>
+    <string name="txtManualCompass">Boussole</string>
+    <string name="txtManualCallFunction">Fonction d\'appel</string>
+    <string name="GPS">GPS</string>
+    <string name="Gyroscope">Gyroscope</string>
+    <string name="txtPhoneShaked">Secoué!</string>
+    <string name="txtManualGyroscope_test">Veuillez secouer l\'appareil pour effectuer ce declarationTest.</string>
+
+    <!--Buy Back-->
+    <string name="txtBuyBackSoon">Disponible prochainement !</string>
+
+    <!--Vibrate Fragment-->
+    <string name="txtAutomated">Diagnostic automatisé</string>
+    <string name="txtVibrateSuccess">Vibreur, fonctionnement, amende</string>
+    <string name="txtVibrateFailed">Vibreur ne fonctionne pas</string>
+    <string name="txtTitleVibrator">Hey, je vais à l\'intérieur de votre appareil pour tester le vibrateur du dispositif. Vous pouvez le mettre sur la surface pour éviter un jugement erroné.</string>
+
+    <!-- DashBoard-->
+    <string name="txtAUTOTEST">Tests automatisés</string>
+    <string name="txtDASHBOARD">Tableau de bord</string>
+    <string name="txtMANUALTEST">Essais manuels</string>
+    <string name="txtDEVICEINFO">Info appareil</string>
+    <string name="txtTRADEIN">Commerce - Dans mon appareil</string>
+    <string name="txtgetQRCode">Obtenir un code barre </string>
+    <string name="txtQRCode_Title">code à barre</string>
+    <string name="txtNoFrontCam">Désolé, aucune caméra avant n\'est disponible</string>
+    <string name="txtScreenTouch">S\'il vous plaît onglet sur l\'écran pour le peindre en couleur blanche.</string>
+
+
+    <!--About US-->
+    <string name="txtManualAboutUs">À propos de nous</string>
+    <string name="aboutUsLink">http://megammr.com/</string>
+    <string name="txtDialogMessageAutomationDone">Voulez-vous aller pour le diagnostic manuel. Si oui appuyez sur continuer ou vous pouvez l\'annuler.</string>
+
+    <!--Smart Run-->
+    <string name="buttonTextSmartRun">MegaMMR Smart Run</string>
+
+    <!--QR Code-->
+    <string name="textQRCodeHelp">Veuillez scanner ce code à barres dans le système MegaMMR pour récupérer automatiquement les données de diagnostic.</string>
+    <string name="buttonTextSmartRunDesc">Mega Smart lance automatiquement le processus de diagnostic.</string>
+    <string name="title_activity_maps">Carte</string>
+    <string name="txtPleaseWait">MapS\'il vous plaît attendre pendant la lecture de la musique.</string>
+    <string name="txtSpeakerTestPass">Félicitations vos haut-parleurs fonctionnent bien.</string>
+    <string name="txtSpeakerTestFail">Oops! Vos enceintes ont un problème.</string>
+    <string name="txtMicTestPass">Félicitations, votre micro fonctionne bien.</string>
+    <string name="txtMicTestFail">Oops! Votre micro a un problème.</string>
+    <string name="txtRecordingStop">Enregistré done.Please cliquez sur le bouton de lecture pour écouter ...</string>
+    <string name="txtMicTitleHeader">Appuyez sur l\'icône du micro et enregistrez votre voix pour effectuer ce declarationTest.</string>
+    <string name="txtRetest">Réévaluer</string>
+    <string name="txtDiagnose">Diagnostic</string>
+    <string name="KillSwitch">Antidémarreur</string>
+    <string name="KillSwitchEnabled">Commutateur d\'arrêt désactivé</string>
+    <string name="Rooted">Enraciné</string>
+    <string name="NotRooted">Pas enracinée</string>
+    <string name="CallFunction">Fonction d\'appel</string>
+    <string name="txtGPSBack">L\'emplacement est-il indiqué sur la carte avec précision?</string>
+    <string name="noInternet">Il semble que votre appareil n\'ait pas de connexion Internet. \ N Veuillez cocher et réessayer pour obtenir le code à barres.</string>
+    <string name="textFooter">Développé par Fairworld IT Solutions</string>
+    <string name="textNotAvailable">Indisponible</string>
+    <string name="txtManualTouchScreenDisplay">Écran tactile</string>
+    <string name="testCompleted">Diagnostic terminé.</string>
+    <string name="txtPerform">Effectuer des diagnostics</string>
+    <string name="txtPermissionMessage">Cette autorisation est requise pour diagnostiquer votre appareil, si vous appuyez sur annuler le declarationTest ne sera pas exécuté.</string>
+    <string name="txtPermissionMessageMic">Cette autorisation est requise pour diagnostiquer votre appareil, si vous appuyez sur annuler le declarationTest ne sera pas exécuté.</string>
+    <string name="txtPermissionMessageGps">Cette autorisation est requise pour diagnostiquer votre appareil, si vous appuyez sur annuler le declarationTest ne sera pas exécuté.</string>
+    <string name="txtPermissionRequired">Attention!</string>
+    <string name="txtRetry">Recommencez</string>
+    <string name="dashboardHeader">Sélectionnez une option pour commencer</string>
+    <string name="txtInternetCheck">S\'il vous plaît vérifiez votre connexion Internet</string>
+    <string name="broadcast">Please Cliquez sur l\'icône ci-dessous pour diffuser les données</string>
+    <string name="txtBroadcasting">Données de radiodiffusion ...</string>
+    <string name="textNote">Remarque: - Les données de diagnostic / code à barres expireront après 12 heures</string>
+    <string name="txtDataExpired">Les données ont expiré</string>
+    <string name="txtWipeData">Essuyez les données</string>
+    <string name="dataWipeWarning">Process supprime les applications installées par l\'utilisateur, les paramètres, le fond d\'écran et les paramètres sonores. Les données supprimées ne seront pas récupérables. Voulez-vous vraiment supprimer l\'appareil?</string>
+    <string name="txtWipeDataTitle">Lire attentivement !</string>
+    <string name="txtPermissionMessageCamera">Voulez-vous tester la caméra? Il vous sera demandé de prendre des photos en utilisant la caméra arrière et avant en cliquant sur le bouton de l\'obturateur rond sur l\'écran. Ensuite, il vous sera demandé de vérifier que les photos ont été prises correctement pour confirmer que l\'appareil fonctionne.</string>
+    <string name="txtPermissionRequiredAlert">Alerte!</string>
+    <string name="dataCleared">Données effacées</string>
+    <string name="Message">Effacer les données</string>
+    <string name="Skip">Sauter le declarationTest</string>
+    <string name="txtPermissionMessageCameraFrntNot">Voulez-vous tester la caméra? Vous devrez prendre des photos en utilisant l\'appareil photo arrière en cliquant sur le bouton de l\'obturateur rond sur l\'écran. Ensuite, il vous sera demandé de vérifier que les photos ont été prises correctement pour confirmer que l\'appareil fonctionne.</string>
+    <string name="txtGpsAlert">L\'application va maintenant essayer de charger votre emplacement sur la carte et vous demander de confirmer si l\'emplacement est précis</string>
+    <string name="txtPermissionRequiredAlertManual">Prêt à démarrer le diagnostic?</string>
+    <string name="txtOpenManual">Cliquez sur \ "Tous \" pour effectuer tous les tests manuels dans une séquence. Cliquez sur \ "Manuel \" pour effectuer chaque declarationTest individuellement.</string>
+    <string name="Manual">Manuel</string>
+    <string name="All">Tout</string>
+    <string name="txtPermissionMessageWipe">Cela réinitialisera tous les diagnostics effectués. Vous pouvez refaire le diagnostic plus tard. Voulez-vous poursuivre ?</string>
+    <string name="txtReset">Réinitialiser Diagnostic</string>
+    <string name="txtOSName">Nom de l\'OS</string>
+    <string name="txtManualFail">Échec du declarationTest</string>
+    <string name="txtManualFrontCam">Échec du declarationTest de caméra avant</string>
+    <string name="txtManualBackCam">Échec du declarationTest de la caméra arrière</string>
+    <string name="ExpertMode">Mode expert</string>
+    <string name="txtVolumeUp">Augmenter le volume fonctionne bien</string>
+    <string name="txtVolumeDown">Le bas du volume fonctionne bien</string>
+    <string name="txtChargingPort">Le port de charge fonctionne bien.</string>
+    <string name="txtJackPort">Le port Jack fonctionne bien.</string>
+    <string name="txtProximitysensorPass">Capteur de proximité fonctionnant bien.</string>
+    <string name="txtGyroscopePass">Le gyroscope fonctionne bien.</string>
+    <string name="txtLightSensorPass">Le capteur de lumière fonctionne bien.</string>
+    <string name="txtExpert">Tout</string>
+    <string name="txtAll">Tout</string>
+    <string name="txtMutitouchPass">ExpertMultitouch fonctionne bien.</string>
+    <string name="txtHomeButtonPass">Le bouton d\'accueil fonctionne bien.</string>
+    <string name="txtFullyManual">Manuel</string>
+    <string name="txtSemiAutomatic">Semi-automatique</string>
+    <string name="txtPowerPass">Fonctionnement du bouton d\'alimentation</string>
+    <string name="textExpertDesc">Vous êtes maintenant en mode expert et pouvez effectuer les tests énumérés ci-dessous au hasard sans suivre aucune séquence.</string>
+    <string name="txtManualVolumeUp">Baisser le volume</string>
+    <string name="txtManualVolumeDown">Monter le son</string>
+    <!--  <string name="txtManualAboutUsScreen"> FairWorld IT Solutions est une organisation professionnelle de logiciels offrant des solutions de haute qualité aux entreprises.
+          Il répond aux besoins en technologie de l\'information des entreprises allant de la Fortune 100 aux moyennes entreprises en utilisant des domaines spécialisés
+          Connaissances, technologies de pointe, cadres / solutions exclusives déployables rapidement et modèles de mobilisation souples.
+          \ N FairWorld IT Solutions a été fondée au début de 2015 et est basée dans la ville belle Chandigarh, Inde, MegaMMR Software est une ressource fiable pour
+          De nombreuses entreprises à travers le monde pour Make / Model logiciel de reconnaissance qui peuvent être intégrés de façon transparente dans n\'importe quel détail ou solution en ligne.
+          Notre produit est utilisé pour extraire la marque, le modèle, IMEI et d\'autres informations pertinentes à partir de n\'importe quel smartphones iOS ou Android basée
+          . Cette information est également utilisée dans de nombreux sites de vente au détail et en ligne par le client pour recycler leur téléphone
+          . \ N MegaMMR est sans heckle, facile à utiliser, et facile à installer le logiciel. Une fois installé tout ce que vous devez faire est de brancher votre téléphone à un câble USB et MegaMMR fait le reste. Il extrait magiquement la marque, le modèle, IMEI et autres informations pertinentes du téléphone.</string>-->
+    <!-- <string name="txtManualAboutUsScreen">
+         <![CDATA[
+         <p style="text-align:justify">FairWorld IT Solutions est une organisation professionnelle de logiciels offrant des solutions de haute qualité aux entreprises. Il répond aux besoins en technologies de l\'information des entreprises allant de la Fortune 100 aux moyennes entreprises en utilisant des connaissances spécialisées sur le domaine, des technologies de pointe, des frameworks / solutions exclusives déployables rapidement et des modèles de mobilisation flexibles</p>
+    <p style="text-align:justify">FairWorld IT Solutions a été fondée au début de 2015 et est basée dans la ville belle Chandigarh, en Inde, MegaMMR Software est une ressource fiable pour de nombreuses entreprises à travers le monde pour Make / Model de logiciels de reconnaissance qui peuvent être intégrés de façon transparente dans toute solution Retail.On Est utilisé pour extraire la marque, le modèle, IMEI et d\'autres informations pertinentes à partir de n\'importe quel smartphones basés sur iOS ou Android. Cette information est également utilisée dans de nombreux commerces de détail et sites en ligne par le client pour recycler leur téléphone</p>
+     <p style="text-align:justify">MegaMMR est sans heckle, facile à utiliser, et facile à installer le logiciel. Une fois installé tout ce que vous devez faire est de brancher votre téléphone à un câble USB et MegaMMR fait le reste. Il extrait magiquement la marque, le modèle, IMEI et autres informations pertinentes du téléphone.</p>
+     ]]>
+     </string>-->
+    <!--<string name="txtManualAboutUsScreen">-->
+         <!--<![CDATA[<p style="text-align:justify">Depuis 2010, Veridic Technologies travaille en tant que partenaire complet de conseil et de solutions informatiques, visant à maximiser la croissance des entreprises de téléphonie mobile utilisées dans le monde entier. Nos clients incluent des entreprises, des PME et des start-ups de détaillants, de grossistes, de distributeurs, d\'opérateurs de télécommunications, de revendeurs, de fournisseurs d\'entrepôts et de recycleurs de téléphones portables.</p>-->
+ <!--<p style="text-align:justify">Initialement, une société de sous-traitance pour Brightstar Corporation (une société de 10 milliards de dollars) par M. Ankur Thakur, Veridic est maintenant devenue une marque de renommée internationale. Nous disposons d'une équipe dédiée d'experts, de plus de 150 employés de niveau intermédiaire et junior, répartis entre 2 bureaux, en Inde et au Royaume-Uni.</p>-->
+ <!--<p style="text-align:justify">Certains des utilisateurs estimés de nos produits et solutions sont Brightstar, Belmont, Apple, Vodafone, EE, Claro, Telcel, Telecom Italia, T Mobile, en tant qu’entités utilisant nos solutions.</p>-->
+ <!--<p style="text-align:justify">Remarque: Veridic Technologies se réserve tous les droits pour l’application CellDe mCheck. Toute copie, impression, reproduction, diffusion, distribution non autorisée sous quelque forme que ce soit est strictement interdite.</p>-->
+<!--]]>-->
+     <!--</string>-->
+    <!--<string name="txtManualAboutUsScreen">-->
+                <!--<![CDATA[<p style="text-align:justify">Depuis 2010, Veridic Technologies travaille en tant que partenaire complet de conseil et de solutions informatiques, visant à maximiser la croissance des entreprises de téléphonie mobile utilisées dans le monde entier. Nos clients incluent des entreprises, des PME et des start-ups de détaillants, de grossistes, de distributeurs, d\\\'opérateurs de télécommunications, de revendeurs, de fournisseurs d\'entrepôts et de recycleurs de téléphones portables.</p>-->
+ <!--<p style="text-align:justify">Initialement, une société de sous-traitance pour Brightstar Corporation (une société de 10 milliards de dollars) par M. Ankur Thakur, Veridic est maintenant devenue une marque de renommée internationale. Nous disposons d\'une équipe dédiée d'experts, de plus de 150 employés de niveau intermédiaire et junior, répartis entre 2 bureaux, en Inde et au Royaume-Uni.</p>-->
+ <!--<p style="text-align:justify">Certains des utilisateurs estimés de nos produits et solutions sont Brightstar, Belmont, Apple, Vodafone, EE, Claro, Telcel, Telecom Italia, T Mobile, en tant qu’entités utilisant nos solutions.</p>-->
+ <!--<p style="text-align:justify">Remarque: Veridic Technologies se réserve tous les droits pour l’application CellDe mCheck. Toute copie, impression, reproduction, diffusion, distribution non autorisée sous quelque forme que ce soit est strictement interdite.</p>-->
+<!--]]>-->
+    <!--</string>-->
+    <string name="txtFurtherDetail">Pour plus de détails, contactez-nous au:</string>
+    <!--<string name="txtFurtherDetailUrl">https://fairworld.in</string>-->
+    <string name="txtProductionDetail">Pour plus de détails sur la production, contactez-nous au:</string>
+    <!--<string name="txtProductionDetailUrl">https://megammr.com</string>-->
+
+    <string name="txtProductionDetailUrl"><a href="http://megammr.com">https://megammr.com</a></string>
+    <string name="txtFurtherDetailUrl"><a href="http://fairworld.in">https://fairworld.in</a></string>
+    <string name="txtRetake">Reprendre</string>
+    <string name="txtPictureSaved">Image enregistrée</string>
+    <string name="txtNotAvailable">Indisponible</string>
+    <string name="MessageProgressCamera">Enregistrer l\'image</string>
+    <string name="txtAgree">Se mettre d\'accord</string>
+
+    <string name="txtDisagree">Être en désaccord</string>
+    <string name="txtPassword">TWVnYU1NUjk4NzY1NDMyMQ==</string>
+    <string name="txtNotSyncData">Données non synchronisées</string>
+    <string name="txtSyncedData">Synchronisation des données</string>
+    <string name="txtLastSync">Dernière synchronisation sur :</string>
+    <string name="txtLoading">Chargement</string>
+    <string name="txtAlertTermsAndCondition">MCheck2.0 doit récupérer les informations de votre appareil, y compris l\'IMEI et le numéro de série, et les transmettre au site Web du partenaire dans le but d\'évaluer votre appareil. En cliquant sur le bouton accepter, vous acceptez d\'autoriser MCheck2.0 à récupérer les informations requises à partir du périphérique.</string>
+    <string name="txtAccept">Acceptez</string>
+    <string name="txtDecline">Déclin</string>
+    <string name="txtNoDataReceived">Aucune donnée recue</string>
+    <string name="txtScanMe">Scanne moi</string>
+    <string name="txtOrUse">Ou utiliser</string>
+
+
+    <string name="txtGetNew">obtenir Nouveau</string>
+    <string name="txtOr">Ou</string>
+    <string name="txtEnterPassword">Entrer le mot de passe</string>
+    <string name="txtNotAuthorize">Vous n\'êtes pas autorisé</string>
+    <string name="txtTryAfterSomeTimeError">Essaye après un certain temps</string>
+    <string name="txtAuthorize">Autorisation</string>
+    <string name="txtEnterPasswordTitle">Entrer le mot de passe</string>
+    <string name="txtDone">Terminé</string>
+    <string name="txtNotOk">Pas d\'accord</string>
+    <string name="txtOk">D\'accord</string>
+    <string name="txtStop">Arrêtez</string>
+    <string name="txtMicokNotOkText">Si vous pouviez entendre correctement la voix enregistrée, appuyez sur le bouton OK pour passer le declarationTest. Sinon, appuyez sur le bouton non ok.</string>
+    <string name="txtSpeakerokNotOkText">Si vous pouviez entendre la musique correctement, appuyez sur le bouton OK pour passer le declarationTest. Sinon, appuyez sur le bouton non ok</string>
+    <string name="txtMicStopDescription">Appuyez sur le bouton Arrêt si vous avez terminé l\'enregistrement</string>
+    <string name="txtNo">Non</string>
+    <string name="txtYes">Oui</string>
+    <string name="txtInternetIssueReopenApp">Veuillez vérifier votre connexion Internet et ouvrir l\'application</string>
+    <string name="txtCancel">Annuler</string>
+    <string name="txtEnterPwd">Entrer le mot de passe</string>
+    <string name="txtIAccept">Je suis d\'accord</string>
+    <string name="txtRemoveMe">Me retirer</string>
+    <string name="txtPasswordCancelScreen">MegaMMR doit vous authentifier avant de vous autoriser dans l\'application. Veuillez réessayer avec un mot de passe valide.</string>
+    <string name="txtExceptions">Des exceptions</string>
+    <string name="txtUDI">UDI</string>
+    <string name="txtMethodName">Nom de la méthode</string>
+    <string name="txtTimeStamp">Timbre horaire</string>
+    <string name="txtExceptionsDetail">Détail de l\'exception</string>
+    <string name="txtExceptionDetail">Détail de l\'exception</string>
+    <string name="txtStackTrace">Trace de la pile</string>
+    <string name="hello_blank_fragment">Bonjour fragment vide</string>
+    <string name="txtManualSemiAutomatic">Semi Automatic</string>
+    <string name="txtManualTestScreen">Manuel</string>
+
+    <string name="txtBarcode">Barcode Scan</string>
+    <string name="txtGetBarCode">Obtenir un code à barres</string>
+    <string name="txtCompleteOrderStore">Complete Order InStore</string>
+    <string name="txtCompleteOrderHere">Complete Order Here</string>
+    <string name="txtLogin">Login</string>
+    <string name="txtChannelCode">Channel Code</string>
+    <string name="txtStoreCode">Store Code</string>
+    <string name="txtEnterChannelCode">Enter Channel Code</string>
+    <string name="txtEnterStoreCode">Enter Store Code</string>
+    <string name="txtDeviceCasingTest">Is device case is alright?</string>
+    <string name="DeviceCasing">Device Casing</string>
+    <string name="flashtestqstn">Flash a-t-il clignoté trois fois?</string>
+    <string name="txtMicPlayInstructions">S\'il vous plaît appuyez sur l\'icône de lecture pour entendre votre voix enregistrée.</string>
+    <string name="txtSystemStorageAvailable">Stockage du système disponible</string>
+    <string name="flashlight">lampe de poche</string>
+    <string name="flash">Flash</string>
+    <string name="compass">Boussole</string>
+    <string name="fingerprint">Empreinte digitale</string>
+    <string name="acclerometer">Accéléromètre</string>
+    <string name="fingerprintsensortest">Test du capteur d\'empreinte digitale</string>
+    <string name="placefinger">Placez le doigt sur le capteur d\'empreinte digitale</string>
+    <string name="acctest">déplacer le téléphone le long des axes x et z</string>
+    <string name="compassdesc">Faites pivoter votre téléphone horizontalement sur son axe.</string>
+    <string name="nofingerconfigured">No fingerprint configured. Please register at least one fingerprint in your device\'s Settings.</string>
+    <string name="personaluse">Personal Use</string>
+    <string name="corporate">Corporate</string>
+    <string name="fingerlimit">Test Limit Exceeded</string>
+
+</resources>

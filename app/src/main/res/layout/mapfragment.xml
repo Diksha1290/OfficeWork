@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/transparent_opaque"
+        android:id="@+id/ll_location"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="45dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/Widget.TextViewHeadingNormalText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent_opaque"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/txtGPSBack"
+            android:textSize="@dimen/about_us"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent_opaque"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="center">
+
+                <com.officework.customViews.CustomButton
+                    android:id="@+id/btnGpsPass"
+                    style="@style/Widget.TextViewHeadingNormalText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textSize="@dimen/about_us"
+                    android:background="@color/app_blue_color"
+                    android:text="@string/txtYes"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="center">
+
+                <com.officework.customViews.CustomButton
+                    android:id="@+id/btnGpsFail"
+                    style="@style/Widget.TextViewHeadingNormalText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textSize="@dimen/about_us"
+                    android:background="@color/app_blue_color"
+                    android:text="@string/txtNo"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgViewSatellite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:paddingBottom="40dp"
+        android:paddingLeft="60dp" />
+
+    <ImageView
+        android:id="@+id/imgViewCurrentPosition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:paddingBottom="40dp"
+        android:paddingRight="60dp"
+        android:src="@drawable/ic_gps_location"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/googleCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00" />
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="colorPrimary">@color/Black</item>-->
+        <!--<item name="colorPrimaryDark">#1F4999</item>-->
+        <item name="android:autofilledHighlight">@color/transparent</item>
+        <item name="colorAccent">@color/app_blue_color</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/rel_btn"
+        android:layout_margin="@dimen/_8sdp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/rel_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_8sdp"
+                android:gravity="center"
+                android:text="@string/thank_you_trade_in"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_large" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_8sdp"
+                android:lineSpacingExtra="@dimen/_1sdp"
+                android:text="@string/frank_order_complete"
+                android:textColor="@color/Black"
+                android:textSize="@dimen/text_normal" />
+
+
+            <LinearLayout
+                android:id="@+id/order_summaryLL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/outside_border"
+                android:orientation="vertical"
+                android:padding="@dimen/_5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5dp"
+                    android:text="@string/order_summary"
+                    android:textColor="@color/Black"
+                    android:textSize="@dimen/text_large"></TextView>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/email_address_titleTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginLeft="@dimen/_8sdp"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:layout_toLeftOf="@id/txt_blank"
+
+                        android:text="@string/email_address"
+                        android:textColor="@color/Black"
+                        android:textSize="@dimen/about_us" />
+
+                    <TextView
+                        android:id="@+id/email_address_valueTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/email_address_titleTV"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginLeft="@dimen/_8sdp"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:layout_marginBottom="@dimen/_8sdp"
+                        android:layout_toLeftOf="@id/txt_blank"
+                        android:text=""
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/about_us"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_blank"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:paddingLeft="@dimen/_2sdp"
+                        android:paddingRight="@dimen/_2sdp" />
+
+                    <TextView
+                        android:id="@+id/transectionidTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:layout_marginRight="@dimen/_8sdp"
+                        android:layout_toRightOf="@id/txt_blank"
+                        android:text="@string/transection_id"
+                        android:textColor="@color/Black"
+                        android:textSize="@dimen/about_us"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_transection_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/transectionidTV"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:layout_marginRight="@dimen/_8sdp"
+
+                        android:layout_marginBottom="@dimen/_8sdp"
+                        android:layout_toRightOf="@id/txt_blank"
+
+                        android:textColor="@color/colorPrimary"
+
+                        android:textSize="@dimen/about_us" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/dotted_line"
+                    android:layerType="software"></View>
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/order_date_titleTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginLeft="@dimen/_8sdp"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:layout_toLeftOf="@id/txt_order"
+
+                        android:text="@string/order_date"
+                        android:textColor="@color/Black"
+                        android:textSize="@dimen/about_us" />
+
+                    <TextView
+                        android:id="@+id/order_date_valueTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/order_date_titleTV"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginLeft="@dimen/_8sdp"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:layout_marginBottom="@dimen/_8sdp"
+                        android:layout_toLeftOf="@id/txt_order"
+                        android:text=""
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/about_us"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_order"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:paddingLeft="@dimen/_2sdp"
+                        android:paddingRight="@dimen/_2sdp" />
+
+                    <TextView
+                        android:id="@+id/device_name_titleTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:layout_marginRight="@dimen/_8sdp"
+                        android:layout_toRightOf="@id/txt_order"
+                        android:text="@string/device_name"
+                        android:textColor="@color/Black"
+                        android:textSize="@dimen/about_us"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/device_name_valueTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/device_name_titleTV"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:layout_marginRight="@dimen/_8sdp"
+
+                        android:layout_marginBottom="@dimen/_8sdp"
+                        android:layout_toRightOf="@id/txt_order"
+
+                        android:textColor="@color/colorPrimary"
+
+                        android:textSize="@dimen/about_us" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/dotted_line"
+                    android:layerType="software"></View>
+
+                <RelativeLayout
+                    android:id="@+id/rel_order_detail"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/imei_titleTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginLeft="@dimen/_8sdp"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:layout_toLeftOf="@id/txt_offer"
+
+                        android:text="@string/device_imei"
+                        android:textColor="@color/Black"
+                        android:textSize="@dimen/about_us" />
+
+                    <TextView
+                        android:id="@+id/imei_valueTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imei_titleTV"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginLeft="@dimen/_8sdp"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:layout_marginBottom="@dimen/_8sdp"
+                        android:layout_toLeftOf="@id/txt_offer"
+                        android:text=""
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/about_us"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_offer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:paddingLeft="@dimen/_2sdp"
+                        android:paddingRight="@dimen/_2sdp" />
+
+                    <TextView
+                        android:id="@+id/offer_valuetitleTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:layout_marginRight="@dimen/_8sdp"
+                        android:layout_toRightOf="@id/txt_offer"
+                        android:text="@string/offer_value"
+                        android:textColor="@color/Black"
+                        android:textSize="@dimen/about_us"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/offer_valueTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/offer_valuetitleTV"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:layout_marginRight="@dimen/_8sdp"
+
+                        android:layout_marginBottom="@dimen/_8sdp"
+                        android:layout_toRightOf="@id/txt_offer"
+
+                        android:textColor="@color/colorPrimary"
+
+                        android:textSize="@dimen/about_us" />
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/rel_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp">
+
+
+        <Button
+            android:id="@+id/txt_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:background="@drawable/gray_bg"
+            android:paddingLeft="@dimen/_30sdp"
+            android:paddingTop="@dimen/_4sdp"
+            android:paddingRight="@dimen/_30sdp"
+            android:paddingBottom="@dimen/_4sdp"
+            android:text="@string/txt_finish"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/about_us" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

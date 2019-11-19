@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.VerifyTradableFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/searchIV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/img_search_device" />
+
+        <com.officework.customViews.DotProgressBar
+            android:id="@+id/dot_progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            custom:amount="3"
+            custom:duration="@android:integer/config_mediumAnimTime"
+            custom:endColor="@color/green_color"
+            custom:startColor="@color/gray_color"
+            custom:animationDirection="left"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/searchIV"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="@string/verifying_device_trade"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/text_large" />
+
+        <com.officework.customViews.GilroyLightTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/searchIV"
+            android:layout_gravity="center"
+            android:text="@string/this_should"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/text_small" />
+
+    </LinearLayout>
+</RelativeLayout>

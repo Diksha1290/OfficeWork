@@ -1,0 +1,88 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.officework.fragments.DeviceCasingTestFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layoutDeviceCase"
+        android:orientation="vertical">
+
+    <com.officework.customViews.IconView
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        app:srcCompat="@drawable/ic_devicecasing_svg_64"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_30dp"
+        android:id="@+id/dcImg"
+        />
+
+    <TextView
+        style="@style/Widget.TextViewHeadingNormalText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/txtDeviceCasingTest"
+        android:textSize="@dimen/about_us"
+        />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="60dp"
+
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center">
+
+            <com.officework.customViews.CustomButton
+                android:id="@+id/btnDeviceCasingOk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/app_blue_color"
+                android:padding="10dp"
+                android:text="@string/Yes"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center">
+
+            <com.officework.customViews.CustomButton
+                android:id="@+id/btnDeviceCasingNotOk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:background="@color/app_blue_color"
+                android:text="@string/No"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#005BAB</color>
+    <color name="colorPrimaryDark">#005BAB</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="btn_green">#5CBB46</color>
+    <color name="yellow_font_Color">#fcb040</color>
+    <color name="RedColor">#d21a1d</color>
+    <color name="Drawer_Shadow_Color">#80323232</color>
+    <color name="green_color">#088A08</color>
+    <color name="gray_color">#A9A9A9</color>
+    <color name="brown">#005BAB</color>
+    <color name="white">#ffffff</color>
+    <color name="light_blue">#8e98d6</color>
+    <color name="brownfade">#312B2680</color>
+    <color name="app_blue_color">#005BAB</color>
+    <color name="stor1">#5970B9</color>                          //966746
+    <color name="stor2">#006560</color>
+    <color name="light_gray">#d9dedb</color>
+    <color name="bg_gray">#EBEBEB</color>
+    <color name="dark_grey">#a4a0a0</color>
+    <color name="Black_transparent">#110e0e0e</color>
+    <color name="app_green_color">#00e5bd</color>
+    <color name="arc_gradient_green_color">#7ed321</color>
+    <color name="arc_background_color_">#0a020000</color>
+    <color name="Black">#000000</color>
+    <color name="baseBackground">#152f41</color>
+    <color name="themePink">#ce5c62</color>
+    <color name="themeGreen">#33B6A9</color>
+    <color name="disabledGray">#808080</color>
+    <color name="disabledGray_opaque">#33808080</color>
+    <color name="disabledGray_opaque30">#4D808080</color>
+    <color name="disabledGray_opaque10">#1A808080</color>
+    <color name="disabledGray_opaque20">#40808080</color>
+    <color name="lightGray">#a6a6a6</color>
+    <color name="background_deepGrey">#e8373737</color>
+    <color name="transparent_black">#e40e0e0e</color>
+    <color name="green">#7ED321</color>
+    <!---->
+    <color name="carbonBlack">#4D4D4D</color>
+    <color name="cream_white">#E6E6E6</color>
+    <color name="purple">#6B5082</color>
+    <color name="product_gray">#D3D3D3</color>
+    <color name="dark_brown">#4D4D4D</color>
+    <!---->
+    <color name="baby_pink">#FAF4F4</color>
+    <color name="type_bkgnd_alarm">#88880000</color>
+    <color name="type_bkgnd_ringtone">#88008888</color>
+    <color name="type_bkgnd_notification">#88666600</color>
+    <color name="type_bkgnd_music">#88000000</color>
+    <color name="type_bkgnd_unsupported">#88cccccc</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="transparent_opaque">#82ffffff</color>
+
+    <color name="alpha_cream_white">#95E6E6E6</color>
+    <color name="alpha_White">#95ffffff</color>
+
+    <color name="CORAL">#f024B6A9</color>
+    <color name="CORAL_DARK">#e024B6A9</color>
+    <color name="CORAL_HANDLE">#8024B6A9</color>
+    <color name="green_opaque">#1A24B6A9</color>
+    <color name="blue">#4f4fca</color>
+    <color name="grayy">#e2e2e2</color>
+</resources>

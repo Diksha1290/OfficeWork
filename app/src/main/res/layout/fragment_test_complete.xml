@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/no_record"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/light_gray"
+            android:gravity="center"
+            android:padding="@dimen/_10dp"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/about_us"
+            android:textStyle="bold"
+            android:visibility="gone"
+
+            />
+
+        <ProgressBar
+            android:id="@+id/progressBarMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:visibility="gone" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/order_id"
+        android:background="@color/white"
+        android:textColor="@color/Black"
+        android:id="@+id/order_id_text"
+        android:padding="@dimen/_10dp"
+        android:textSize="@dimen/about_us"
+android:visibility="gone"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/order_id"
+        android:text=""
+        android:background="@color/white"
+        android:textColor="@color/Black"
+        android:padding="@dimen/_10dp"
+        android:textStyle="bold"
+        android:textSize="@dimen/about_us"
+        android:visibility="gone"
+        />
+    <LinearLayout
+        android:id="@+id/main_parent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="100"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/cardLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_10dp"
+                        android:background="@drawable/shadow_rectangle"
+                        android:elevation="2dp"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <com.officework.customViews.GilroyLightTextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="70"
+                            android:background="@color/white"
+                            android:padding="@dimen/_15dp"
+                            android:text="@string/device_price"
+                            android:textColor="@color/Black" />
+
+                        <com.officework.customViews.GilroyLightTextView
+                            android:id="@+id/price"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="30"
+                            android:background="@color/cream_white"
+                            android:gravity="center"
+                            android:padding="@dimen/_15dp"
+                            android:text="AUD 600"
+                            android:textColor="@color/Black"
+
+
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_10dp"
+                        android:background="@drawable/shadow_rectangle"
+                        android:elevation="2dp"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <com.officework.customViews.GilroyLightTextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="70"
+                            android:background="@color/white"
+                            android:padding="@dimen/_15dp"
+                            android:text="@string/device_deductions"
+                            android:textColor="@color/Black"
+
+
+                            />
+
+                        <com.officework.customViews.GilroyLightTextView
+                            android:id="@+id/deductions"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="30"
+                            android:background="@color/baby_pink"
+                            android:gravity="center"
+                            android:padding="@dimen/_15dp"
+                            android:text=""
+                            android:textColor="@color/Black"
+                            android:textStyle="bold"
+
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_10dp"
+                        android:background="@drawable/shadow_rectangle"
+                        android:elevation="2dp"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <com.officework.customViews.GilroyLightTextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="70"
+                            android:background="@color/white"
+                            android:padding="@dimen/_15dp"
+                            android:text="@string/offer_price"
+                            android:textColor="@color/Black"
+
+                            />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorPrimary"></View>
+
+                        <com.officework.customViews.GilroyLightTextView
+                            android:id="@+id/offer"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="30"
+                            android:background="@color/white"
+                            android:gravity="center"
+                            android:padding="@dimen/_15dp"
+                            android:text=""
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold"
+
+                            />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/cardLL"
+                    android:layout_marginTop="@dimen/_10dp"
+                    android:clipToPadding="false"
+                    android:visibility="gone"
+                    android:nestedScrollingEnabled="false"
+                    android:scrollbars="vertical" />
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/termslayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/_20dp"
+            android:gravity="center_horizontal|bottom"
+            android:orientation="horizontal"
+            android:padding="@dimen/_10dp">
+            <Button
+                android:id="@+id/proceed"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/_10dp"
+                android:background="@color/btn_green"
+                android:text="@string/accept"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:background="@color/gray_color"
+                android:text="@string/reject"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+            <!--        <View-->
+            <!--            android:layout_width="35dp"-->
+            <!--            android:layout_height="1dp"/>-->
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

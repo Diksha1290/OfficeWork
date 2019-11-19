@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.RequestAllPermissionsActivity">
+
+
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/frame"/>
+    <FrameLayout
+        android:id="@+id/headerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true" />
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:id="@+id/welc"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="@dimen/_70sdp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <com.officework.customViews.GilroyExtraboldTextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:paddingBottom="2dp"
+            android:text="@string/welcome"
+            android:textColor="@color/Black"
+            android:textSize="22sp" />
+        <com.officework.customViews.GilroyLightTextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:padding="@dimen/_5dp"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/_10dp"
+            android:text="@string/thank_you_download"
+            android:textColor="@color/Black"
+            android:textSize="18sp" />
+        <com.officework.customViews.GilroyLightTextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:paddingBottom="2dp"
+            android:visibility="gone"
+            android:text="@string/frank_mobile"
+            android:textColor="@color/Black"
+            android:textSize="18sp" />
+        <com.officework.customViews.GilroyLightTextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_5dp"
+            android:lineSpacingExtra="@dimen/_5dp"
+            android:padding="@dimen/_10dp"
+            android:text="@string/frank_wel_des"
+            android:textColor="@color/Black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/beginBT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="@dimen/_100sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/btn_green"
+        android:textAllCaps="false"
+        android:text="@string/proceed"
+        android:textColor="@color/white" />
+</RelativeLayout>
+</RelativeLayout>

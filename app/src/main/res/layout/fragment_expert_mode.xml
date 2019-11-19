@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/basic_padding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/Text_Normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:singleLine="false"
+            android:text="@string/textExpertDesc" />
+
+        <TextView
+            android:id="@+id/txtViewJackTest"
+            style="@style/Text_Normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/EarphoneJack" />
+
+        <TextView
+            android:id="@+id/txtViewVolume"
+            style="@style/Text_Normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtManualVolume_Btn" />
+
+        <TextView
+            android:id="@+id/txtViewPowerTest"
+            style="@style/Text_Normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/PowerButton" />
+
+        <TextView
+            android:id="@+id/txtViewChargingTest"
+            style="@style/Text_Normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ChargingPort" />
+
+        <TextView
+            android:id="@+id/txtViewMutitouchTest"
+            style="@style/Text_Normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/MultiTouch" />
+
+        <TextView
+            android:id="@+id/txtViewProximityTest"
+            style="@style/Text_Normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ProximitySensor" />
+
+        <TextView
+            android:id="@+id/txtViewHomeTest"
+            style="@style/Text_Normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/HomeButton" />
+
+        <TextView
+            android:id="@+id/txtViewGyroscopeTest"
+            style="@style/Text_Normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Gyroscope" />
+
+        <TextView
+            android:id="@+id/txtViewLightTest"
+            style="@style/Text_Normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/LightSensor" />
+    </LinearLayout>
+
+</FrameLayout>

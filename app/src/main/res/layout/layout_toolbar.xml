@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toolbar_gradient"
+        android:minHeight="?attr/actionBarSize">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/unique_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:visibility="gone"
+                    android:background="@drawable/rectangle"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:textColor="@color/app_blue_color" />
+
+                <ImageView
+                    android:id="@+id/btnToggleSlider"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight=".5"
+                    android:src="@drawable/ic_menu"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/txtTitle"
+                    style="@style/Text_Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_weight="1.95"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:textSize="@dimen/about_us"
+                    android:singleLine="true"
+                    android:textAlignment="center"
+                    android:textColor="@color/white" />
+
+
+
+                <TextView
+                    android:id="@+id/sync"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="5dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/Sync"
+                    android:textColor="@color/white"
+                    android:gravity="center_vertical"
+                    android:textSize="14sp" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:padding="@dimen/_5dp"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/cancel"
+                    android:visibility="gone"
+                    android:src="@android:drawable/ic_menu_close_clear_cancel"/>
+
+            </RelativeLayout>
+
+            <!--        <RelativeLayout-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:background="@color/dark_grey"-->
+            <!--            android:orientation="horizontal"-->
+            <!--            android:id="@+id/slider_layout"-->
+            <!--            android:visibility="gone"-->
+
+
+            <!--            android:padding="@dimen/_5dp">-->
+            <!--            <TextView-->
+            <!--                android:id="@+id/switch_desc"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_centerVertical="true"-->
+            <!--                android:layout_alignParentLeft="true"-->
+            <!--                android:text="@string/switch_desc"-->
+            <!--                android:textColor="@color/Black"-->
+            <!--                android:textSize="12sp" />-->
+
+            <!--            <androidx.appcompat.widget.SwitchCompat-->
+            <!--                android:id="@+id/switchDoAll"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_alignParentEnd="true"-->
+            <!--                android:layout_centerVertical="true"-->
+            <!--                android:paddingRight="@dimen/_5dp"-->
+            <!--                android:theme="@style/SwitchManualScreen.control" />-->
+
+            <!--        </RelativeLayout>-->
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:id="@+id/switchLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="@color/white"
+        android:elevation="10dp"
+        android:minHeight="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_below="@+id/toolbar">
+
+        <TextView
+            android:id="@+id/stxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/switchDoAll"
+            android:ellipsize="end"
+            android:padding="2dp"
+            android:text="@string/switch_desc"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/toogle_text_size"
+            />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchDoAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="5dp"
+
+            android:theme="@style/SwitchManualScreen.control" />
+        <!--app:track="@drawable/switch_on_off"-->
+        <!--android:thumb="@drawable/switch_thumb_state"-->
+
+        <!--android:id="@+id/switchDoAll"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:theme="@style/SwitchManualScreen.control"-->
+        <!--android:layout_gravity="center_vertical"-->
+        <!--android:layout_weight="1"-->
+        <!--android:layout_margin="10dp"-->
+        <!--app:showText="true"-->
+        <!--android:textOff="off"-->
+        <!--android:textOn="on"-->
+        <!--/>-->
+
+
+    </RelativeLayout>
+</RelativeLayout>

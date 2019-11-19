@@ -1,0 +1,497 @@
+﻿<resources>
+    <string name="app_name">mCheck2.0</string>
+
+    <!--Generics-->
+    <string name="Ok">ok</string>
+    <string name="textNext">Nästa</string>
+    <string name="textSkip">Hoppa</string>
+    <string name="txtInqueue">I kö</string>
+    <string name="loaderTxt">Läser in</string>
+    <string name="searchingTxt">Sökande</string>
+    <string name="txtConfirm">Bekräfta</string>
+    <string name="txtContinue">Fortsätt</string>
+    <string name="Cancel">Annullera</string>
+    <string name="Done">Klart</string>
+    <string name="Yes">Ja</string>
+    <string name="No">Nej</string>
+    <string name="Submit">Skicka</string>
+    <string name="Reset">Återställa</string>
+    <string name="Back">Tillbaka</string>
+    <string name="quit_app">Är du säker på att du vill avsluta app?</string>
+    <string name="logout_app">Är du säker på att du vill logga ut?</string>
+    <string name="ServerError">Något gick fel. Kontrollera din Internet eller försök igen senare.</string>
+    <string name="InternetError">Vänd på Internet och försök igen senare.</string>
+    <string name="InvalidLoginCreds">Ange rätt e-ID eller lösenord</string>
+    <string name="loaderMsg">Vänta medan vi bearbetar din förfrågan.</string>
+    <string name="navigation_drawer_open">Öppna navigeringspanelen</string>
+    <string name="navigation_drawer_close">Stäng navigeringspanelen</string>
+    <string name="txtInternetIssue">Kontrollera din Internet-anslutning.</string>
+    <string name="txtDecryptPass">TWVnYU1NUjk4NzY1NDMyMQ==</string>
+    <!--Dashboard Screen-->
+    <string name="txtDeviceInfo">Anordning \nInfo</string>
+    <string name="txtAutomatedTest">Automatiserad \nTesta</string>
+    <string name="txtManualTest">Manuell \nTesta</string>
+    <string name="txtBuyBack">Byta in\nMin enhet</string>
+    <string name="txtQRCode">Få \nBarcode</string>
+
+    <!--Device Info Screen-->
+    <string name="txtTabNamesHardware">Hårdvara</string>
+    <string name="txtTabNamesSystem">Systemet</string>
+    <string name="txtTabNamesBattery">Batteri</string>
+    <string name="txtTabNamesNetwork">Nätverk</string>
+    <string name="txtTabNamesCamera">Kamera</string>
+
+    <!--Hardware-->
+    <string name="txtProcessor">Processor</string>
+    <string name="txtHardware">Hårdvara</string>
+    <string name="txtCPU">CPU</string>
+    <string name="txtProcess">Behandla</string>
+    <string name="txtCores">kärnor</string>
+    <string name="txtFrequencies">frekvenser</string>
+    <string name="txtGovernor">Guvernör</string>
+    <string name="txtVendor">Försäljare</string>
+    <string name="txtOpenGl">OpenGL</string>
+
+    <!--Graphics-->
+    <string name="txtGraphics">Grafik</string>
+    <string name="txtGPU">GPU</string>
+    <string name="txtMax_frequency">Max frekvens</string>
+    <string name="txtResolution">Upplösning</string>
+    <string name="txtScreen_density">rastertäthet</string>
+    <string name="txtScreen_size">Skärmstorlek</string>
+    <string name="txtFrame_rate">Bildhastighet</string>
+
+    <!--Memory-->
+    <string name="txtMemory">Minne</string>
+    <string name="txtRamSize">RAM-storlek </string>
+
+    <!--Storage-->
+    <string name="txtStorage">Lagring</string>
+    <string name="Capacity">Intern lagring</string>
+    <string name="txtSystemStorage">Systemet lagring</string>
+    <string name="txtStorageAvailable">Tillgänglig intern lagring</string>
+    <string name="txtIOScheduler">I/O-Scheduler</string>
+    <string name="txtReadAhead">Läs vidare</string>
+
+    <!--System-->
+    <string name="txtSystem">Systemet</string>
+    <string name="Model">Modell</string>
+    <string name="txtCodename">Kodnamn</string>
+    <string name="Manufacturer">Tillverkare</string>
+    <string name="SerialNumber">Serienummer</string>
+    <string name="txtBoot_loader">boot loader</string>
+    <string name="txtRadio">Radio</string>
+    <string name="IMEI1">IMEI 1</string>
+    <string name="IMEI2">IMEI 2</string>
+    <string name="txtDevice_ID">Enhets-ID</string>
+    <string name="OperatingSystem">Operativ system</string>
+    <string name="txtRootAccess">Root-åtkomst</string>
+    <string name="txtBusy_box">Upptagen ruta</string>
+    <string name="OperatingSystemVersion">Android-Version</string>
+    <string name="txtBuild">Bygga</string>
+    <string name="txtSDK">SDK</string>
+    <string name="txtKernel">Kärna</string>
+    <string name="txtPermissionDenied">Inte tillåtet av användaren</string>
+    <string name="txtPermissionRoot">Enhet har sina rötter</string>
+    <string name="txtPermissionRootNot">Enheten är inte Rotade</string>
+    <string name="txtUnavailable">Inte tillgänglig</string>
+
+
+    <!--Battery-->
+    <string name="txtStatus">Status</string>
+    <string name="txtStatusCharging">Laddning</string>
+    <string name="txtStatusDischarging">Urladdning</string>
+    <string name="txtStatusFull">Full</string>
+    <string name="txtStatusNot_Charging">Laddar inte</string>
+    <string name="txtLevel">Nivå</string>
+    <string name="txtTemperature">Temperatur</string>
+    <string name="txtInformation">Information</string>
+    <string name="txtTechnology">Teknologi</string>
+    <string name="txtUnknown">Okänd</string>
+    <string name="BatteryCondition">Hälsa</string>
+    <string name="txtHealthDead">Död</string>
+    <string name="txtHealthGood">Bra</string>
+    <string name="txtHealthOver_Voltage">Över Spänning</string>
+    <string name="txtHealthOver_Heat">Överhettning</string>
+    <string name="txtHealthFailure">Fel</string>
+    <string name="txtVoltage">Spänning</string>
+    <string name="txtVoltageV">V</string>
+    <string name="txtCurrent">Ström</string>
+    <string name="txtCapacity">Kapacitet</string>
+    <string name="txtPlugInTypeUSB">USB</string>
+    <string name="txtPlugInTypeAC">AC</string>
+
+    <!--Network-->
+    <string name="txtWifi">Wifi</string>
+    <string name="txtNetwork">Nätverk</string>
+    <string name="txtBSSID">BSSID</string>
+    <string name="txtDHCPServer">DHCP-server</string>
+    <string name="txtGateway">Inkörsport</string>
+    <string name="txtIPaddress">IP-adress</string>
+    <string name="txtLinkSpeed">Länkhastighet</string>
+    <string name="MACAddress">MAC-adress</string>
+    <string name="txtSignalstrength">Signalstyrka</string>
+    <string name="txtPublicIP">Public IP</string>
+    <string name="txtMobile">Mobil</string>
+    <string name="txtCallFunctionHeading">Diagnostisera &amp;#8230</string>
+    <string name="txtOperator">Operatör</string>
+    <string name="txtOperatorcode">Operatörskod</string>
+    <string name="txtRoaming">Roaming</string>
+    <string name="CDMAGSM">telefontyp</string>
+    <string name="txtNetworktype">Nätverkstyp</string>
+    <string name="txtWif">WIFI</string>
+    <string name="txtNet">MOBIL</string>
+    <string name="txtDbm"> dBm</string>
+    <string name="txtWiEnable">WiFi aktiverat</string>
+    <string name="txtMobEnable">Mobil data aktiverat</string>
+    <string name="txtNotEnable">Inte ansluten till Internet</string>
+    <string name="txtSimConnect">Ansluten</string>
+    <string name="txtSimDisconnect">Osammanhängande</string>
+    <string name="txtSimNetworkLock">Nätverk Låst</string>
+    <string name="txtSimPukRequired">PUK Required</string>
+    <string name="txtSimPinRequired">Pin Required</string>
+    <string name="txtSimUnkown">Okänd</string>
+    <string name="txtSimNone">Ingen</string>
+    <string name="txtRoamEnable">Aktiverad</string>
+    <string name="txtRoamDisabled">handikappad</string>
+    <string name="txtRoamNotAvail">Ingen förbindelse</string>
+    <string name="txtTypeCDMA">CDMA</string>
+    <string name="txtTypeGSM">GSM</string>
+    <string name="txtTypeNone">INGEN</string>
+
+    <!--Camera-->
+    <string name="txtPrimaryCamera">Primära Kamera</string>
+    <string name="txtSecondaryCamera">Sekundär kamera</string>
+
+    <string name="txtFocallength">Brännvidd</string>
+    <string name="txtFocusmodes">Fokuslägen</string>
+    <string name="txtJPEGquality">JPEG-kvalitet</string>
+    <string name="txtImageformat">bildformat</string>
+    <string name="txtSensors">sensorer</string>
+    <string name="txtSensorinfo">sensor info</string>
+    <string name="txtAccelerometer">Accelerometer</string>
+    <string name="txtLightsensor">Ljussensor</string>
+    <string name="txtProximitysensor">Närhetssensor</string>
+    <string name="txtFocusFIA">Fast,Oändlighet, bil</string>
+    <string name="txtFocusFI">Fast, Oändlighet</string>
+    <string name="txtFocusAI">Oändlighet, bil</string>
+    <string name="txtFocusAF">Fast, automatisk</string>
+    <string name="txtFocusAuto">Bil</string>
+    <string name="txtFocusFixed">Fast</string>
+    <string name="txtFocusInfinity">Oändlighet</string>
+
+    <string name="txtTermCondition">Villkor &amp; amp; Betingelser</string>
+
+    <!--Automation Test-->
+    <string name="txtAlertDialog">Du har valt automatiserade Diagnostics.</string>
+    <string name="txtAlertDialogSmartRun">Du har startat Mega Smart Kör för diagnostik.</string>
+    <string name="PhoneVibrator">Vibration</string>
+    <string name="txtSpeakerMic">Högtalare &amp; Mic</string>
+    <string name="BluetoothActivation">Blåtand</string>
+    <string name="WiFiActivation">Wifi</string>
+    <string name="SIMCardRemoved">SIM-kort har tagits bort</string>
+    <string name="SdCardRemoved">SD-kort har tagits bort</string>
+    <string name="txtBattery">batteriets tillstånd</string>
+    <string name="txtPass">verifierade</string>
+    <string name="txtManualPass">Test Godkänd</string>
+
+    <string name="txtInProgress">Kontroll</string>
+    <string name="txtFail">Oj då!</string>
+    <string name="txtAlertTitleGreat">Bra !!</string>
+    <string name="txtAlertTitleGreatAlert">Alert !!</string>
+
+    <string name="txtLetsStart">Låt oss börja !!</string>
+    <string name="txtStart">Start</string>
+    <string name="txtAlertBackPress">Vänta medan vi utför diagnostik</string>
+    <string name="txtTestAgain">Tryck på start för att testa igen.</string>
+    <string name="txtAutomationCompleted">Stora dina automations diagnostik har gjorts.</string>
+
+    <!--Manual Test-->
+    <string name="txtManual">Manuell diagnostik</string>
+    <string name="txtManual_Test">Diagnostik</string>
+    <string name="txtManualCamera">Kamera</string>
+    <string name="txtManualSpeaker_test">Hej, trycker på play-knappen och kontrollera om du kan höra något ljud.</string>
+    <string name="txtManualSpeaker_test_Dialog">Vänligen bekräfta om du kan höra spelas spår?</string>
+    <string name="txtManualMic_test_Dialog">Är du kan höra ljudet som du har spelat in?</string>
+    <string name="txtCount_test_Dialog">Är du fortfarande utför testet?</string>
+
+    <string name="Speaker">Högtalare</string>
+    <string name="Mic">Mic</string>
+    <string name="txtCameraTestFail">Du har inte klicka på någon bild vi kommer att överväga kamera undersökning som misslyckades.</string>
+    <string name="txtFrontCameraTestFail">Främre kamera undersökning misslyckades.</string>
+    <string name="txtBackCameraTestFail">Bakre kamera undersökning misslyckades.</string>
+    <string name="txtTitleCamera">Vänligen fånga bild från både främre och amp; bakre kamera och bekräfta om de är bra.</string>
+    <string name="txtBackPressed">Är du säker?</string>
+    <string name="txtBackPressedYes">Ja</string>
+
+    <!--<string name="EarphoneJack">Ear &amp; Jack</string>-->
+    <string name="EarphoneJack">Jack</string>
+    <string name="txtManualEarJack_test">Vänligen plugin din hörlursuttaget för att genomföra testet.</string>
+    <string name="txtManualDisplayAlert">Varna</string>
+    <string name="txtManualDisplayYes">Ja</string>
+    <string name="txtManualDisplayNo">Nej</string>
+    <string name="txtManualDisplayDeadPixel">Detta declarationTest kommer att vända telefonens skärm helt vit under några sekunder, följt genom att vrida den helt svart så att eventuella saknade pixlar syns tydligt. Observera skärmen noga för att undersöka eventuella problem.</string>
+    <string name="DeadPixelWhite">Vit Dead Pixel</string>
+    <string name="DeadPixelBlack">Svart Dead Pixel</string>
+    <string name="txtManualDeadPixelWhiteXMLPass">Vit Dead Pixel - Pass</string>
+    <string name="txtManualDeadPixelWhiteXMLFail">Vit Dead Pixel - Underkänd</string>
+    <string name="txtManualDeadPixelBlackXMLPass">Svart Dead Pixel - Pass</string>
+    <string name="txtManualDeadPixelBlackXMLFail">Svart Dead Pixel - Underkänd</string>
+    <string name="txtManualDeadPixelStartXML">starta declarationTest</string>
+    <string name="txtManualDisplayDeadPixelMessageBlack">Märkte du någon saknad pixel på skärmen?</string>
+    <string name="txtManualDisplayDeadPixelMessageWhite">Märkte du någon saknad pixel på skärmen?</string>
+    <string name="txtManualTouchScreen">Är du fortfarande utför testet?</string>
+
+    <string name="txtManualDeadPixelWhite">Kan du se 5 Stjärnor på skärmen?</string>
+    <string name="txtManualDeadPixelBlack">Kan du se 5 Stjärnor på skärmen?</string>
+
+    <!--Volume Button Changes-->
+    <string name="txtManualVolume_Btn">Volym knapp</string>
+    <string name="txtTitleVolume_Btn">Vänligen tryck på volym upp och amp; volym ned för att göra dom.</string>
+    <string name="VolumeUp">Höj volymen</string>
+    <string name="VolumeDown">Sänk volymen</string>
+    <string name="PowerButton">Strömknappen</string>
+    <string name="txtManualPower_test">Vänligen tryck din makt / sömn för att göra dom.</string>
+    <string name="ChargingPort">laddningsport</string>
+    <string name="txtPortTestedSuccess">Port testats med framgång kan du nu ta bort laddaren.</string>
+    <string name="txtTitleCharging">Vänligen koppla in laddaren för att göra dom.</string>
+    <string name="txtManualDisplay">visum</string>
+    <string name="MultiTouch">Multi touch</string>
+    <string name="txtManualMititouch_ALertText">% 1 $ s fingrar har berörts. Var god bekräfta.</string>
+    <string name="txtManualMititouchToast">Vänligen peka på skärmen med mer än 1 fingrar.</string>
+    <string name="txtManualMititouchRetryToast">Försök och vänligen peka på skärmen med iallafall två fingrar.</string>
+    <string name="txtManualMititouchCongratsToast">Grattis testet lyckas.</string>
+    <string name="ProximitySensor">Närhetssensor</string>
+    <string name="txtManualProximityWorking">Induktiva givaren Arbetande</string>
+    <string name="txtNoProximitySensor">Ingen induktiva givaren Found!</string>
+    <string name="txtProximitySensorNear">Du är nära: </string>
+    <string name="txtProximitySensorFar">Du är långt borta: </string>
+    <string name="txtManualProximitySensor_test">Flytta handen över toppen av enhetens skärm.</string>
+    <string name="ScreenTouch">Pekskärm</string>
+    <string name="txtManualScreenTouchPass">Pekskärm klarat.</string>
+    <string name="txtManualScreenTouchHelp">Vänligen gnugga hela skärmen för att måla den.</string>
+    <string name="txtManualScreenTouchComplete">Grattis du trycka på skärmen fungerar fine.Now du kan trycka tillbaka knappen och fortsätta med annan undersökning.</string>
+    <string name="txtPowerBtnPressed">Strömbrytaren intryckt</string>
+    <string name="HomeButton">Hem</string>
+    <string name="txtManualHomeTestWait">Ansökan kommer att ladda automatiskt ....</string>
+    <string name="txtManualHomeButton_test">Vänligen tryck din hem-knappen.</string>
+    <string name="SleepWakeButtons">Sova &amp; Vakna</string>
+    <string name="txtLocked">låst</string>
+    <string name="txtUnLocked">Olåst</string>
+    <string name="txtManualSleepWake_test">Hej, jag kommer inuti enheten för att testa enheten sova och vakna button.Please trycka din strömbrytare.</string>
+    <string name="LightSensor">Ljussensor</string>
+    <string name="txtLightSensor">LJUS:</string>
+    <string name="txtManualLightSensor_test">Vänligen placera enheten i närheten av ljuskällan.</string>
+    <string name="txtManualCompass">Kompass</string>
+    <string name="txtManualCallFunction">samtals Funktion</string>
+    <string name="GPS">GPS</string>
+    <string name="Gyroscope">Gyroskop</string>
+    <string name="txtPhoneShaked">Skakade !</string>
+    <string name="txtManualGyroscope_test">Vänligen skaka enheten.</string>
+
+    <!--Buy Back-->
+    <string name="txtBuyBackSoon">Kommer inom kort!</string>
+
+    <!--Vibrate Fragment-->
+    <string name="txtAutomated">Automatiserad Diagnostik</string>
+    <string name="txtVibrateSuccess">Vibrator fungerar bra</string>
+    <string name="txtVibrateFailed">Vibrator fungerar inte</string>
+    <string name="txtTitleVibrator">Hej, jag kommer inuti enheten för att testa enheten vibrator. Du kan sätta den på ytan för att undvika felaktig bedömning.</string>
+
+    <!-- DashBoard-->
+    <string name="txtAUTOTEST">Automatiserad Testa</string>
+    <string name="txtDASHBOARD">Instrumentbräda</string>
+    <string name="txtMANUALTEST">Manuell Testa</string>
+    <string name="txtDEVICEINFO">Anordning Info</string>
+    <string name="txtTRADEIN">Handel - I Min enhet</string>
+    <string name="txtgetQRCode">Få Barcode </string>
+    <string name="txtQRCode_Title">Streckkod</string>
+    <string name="txtNoFrontCam">Tyvärr finns ingen främre cam är tillgänglig</string>
+    <string name="txtScreenTouch">Vänligen fliken på skärmen för att måla den i vit färg.</string>
+
+
+    <!--About US-->
+    <string name="txtManualAboutUs">Om oss</string>
+    <string name="aboutUsLink">http://megammr.com/</string>
+    <string name="txtDialogMessageAutomationDone">Vill du gå för manuell diagnostik. Om ja tryck fortsätta eller du kan avbryta den.</string>
+
+    <!--Smart Run-->
+    <string name="buttonTextSmartRun">MegaMMR Smart Run</string>
+
+    <!--QR Code-->
+    <string name="textQRCodeHelp">Vänligen gå till din närmaste butik för att återvinna enheten bära din streckkod.</string>
+    <string name="buttonTextSmartRunDesc">Mega Smart körning startar automatiskt den diagnostiska processen.</string>
+    <string name="title_activity_maps">Karta</string>
+    <string name="txtPleaseWait">Vänta medan musiken spelas.</string>
+    <string name="txtSpeakerTestPass">GRATTIS högtalarna fungerar bra.</string>
+    <string name="txtSpeakerTestFail">Oj då! högtalarna har vissa problem.</string>
+    <string name="txtMicTestPass">GRATTIS mikrofonen fungerar bra.</string>
+    <string name="txtMicTestFail">Oj då! mikrofonen har vissa problem.</string>
+    <string name="txtRecordingStop">Registreras done.Please klicka på play-knappen för att lyssna &amp;8230</string>
+    <string name="txtMicTitleHeader">Tryck på mikrofonen för att starta recording.Please hålla telefonen mikrofon nära till röstkällan</string>
+    <string name="txtRetest">Re-testet</string>
+    <string name="txtDiagnose">Diagnostisera</string>
+    <string name="KillSwitch">Kill Switch</string>
+    <string name="KillSwitchEnabled">Nödströmbrytaren funktionshindrade</string>
+    <string name="Rooted">ROTFAST</string>
+    <string name="NotRooted">Inte Rotade</string>
+    <string name="txtGPSBack">Är platsen som visas på kartan korrekt?</string>
+    <string name="noInternet">Dess verkar som enheten inte har Internet-anslutning.\n Kontrollera och Försök att få streckkod.</string>
+    <string name="textFooter">Powered by Fairworld Solutions</string>
+    <string name="textNotAvailable">Inte tillgänglig</string>
+    <string name="txtManualTouchScreenDisplay">Pekskärm</string>
+    <string name="testCompleted">Diagnostic Färdig.</string>
+    <string name="txtPerform">Utför diagnostik</string>
+    <string name="txtPermissionMessage">Detta tillstånd krävs för att diagnostisera enheten, om du trycker avbryter testet kommer inte utföras ..</string>
+    <string name="txtPermissionMessageMic">Detta tillstånd krävs för att diagnostisera enheten, om du trycker avbryter testet kommer inte utföras ..</string>
+    <string name="txtPermissionMessageGps">Detta tillstånd krävs för att diagnostisera enheten, om du trycker avbryter testet kommer inte utföras ..</string>
+    <string name="txtPermissionRequired">Varning!</string>
+    <string name="txtRetry">Försök igen</string>
+    <string name="dashboardHeader">Låt\'s MMR \ n Eftersom det finns liv i enheten</string>
+    <string name="txtInternetCheck">Kontrollera din Internet-anslutning</string>
+    <string name="broadcast">Klicka på nedanstående ikon för att sända data</string>
+    <string name="txtBroadcasting">Skicka data &amp;#8230</string>
+    <string name="textNote">Obs: - diagnostik data / streckkod kommer att löpte ut efter 12 timmar</string>
+    <string name="txtDataExpired">Data har löpt ut</string>
+    <string name="txtWipeData">Rensa data</string>
+    <string name="dataWipeWarning">Process kommer att ta bort användarinstallerade program, inställningar, tapeter och ljud settings.Deleted data kommer inte att kunna återvinnas. Är du säker på att du vill torka enhet?</string>
+    <string name="txtWipeDataTitle">Varning</string>
+    <string name="txtPermissionMessageCamera">Vill du testa kameran? Du kommer att bli ombedd att ta bilder med hjälp av bakre och främre kameran genom att klicka på den runda avtryckarknappen på skärmen. Då kommer du att bli ombedd att kontrollera bilderna har tagits korrekt att bekräfta kameran fungerar.</string>
+    <string name="txtPermissionRequiredAlert">Varna!</string>
+    <string name="dataCleared">Data Rensas</string>
+    <string name="Message">Clearing Data</string>
+    <string name="Skip">Skip Test</string>
+    <string name="txtPermissionMessageCameraFrntNot">Vill du testa kameran? Du kommer att bli ombedd att ta bilder med bakre kameran genom att klicka på den runda avtryckarknappen på skärmen. Då kommer du att bli ombedd att kontrollera bilderna har tagits korrekt att bekräfta kameran fungerar.</string>
+    <string name="txtGpsAlert">Programmet kommer nu att försöka ladda din position på kartan och ber dig bekräfta om platsen är korrekt</string>
+    <string name="txtPermissionRequiredAlertManual">Redo att börja diagnostik?</string>
+    <string name="txtOpenManual">Klicka \ "Alla \" för att utföra alla de manuella tester i en sekvens. Klicka \ "Manual \" att göra varje prov individuellt.</string>
+    <string name="Manual">Manuell</string>
+    <string name="All">Allt</string>
+    <string name="CallFunction">samtals Funktion</string>
+    <string name="txtPermissionMessageWipe">Detta kommer att återställa alla dina utförs diagnostik. Du kan göra om den diagnostiska senare. Vill du fortsätta ?</string>
+    <string name="txtReset">Återställ Diagnose</string>
+    <string name="txtOSName">OS Namn</string>
+    <string name="txtManualFail">Testet Misslyckas</string>
+    <string name="txtManualFrontCam">Främre Kamera Testet misslyckades</string>
+    <string name="ExpertMode">Expertläge</string>
+    <string name="txtVolumeUp">Volym upp fungerar bra.</string>
+    <string name="txtVolumeDown">Volym ned fungerar bra.</string>
+    <string name="txtChargingPort">Laddningsporten fungerar bra.</string>
+    <string name="txtManualBackCam">Tillbaka Kamera Test Fail</string>
+    <string name="txtJackPort">Jack port fungerar bra.</string>
+    <string name="txtProximitysensorPass">Närhetssensor fungerar bra.</string>
+    <string name="txtGyroscopePass">Gyroskop fungerar bra.</string>
+    <string name="txtLightSensorPass">Ljussensor fungerar bra.</string>
+    <string name="txtExpert">Allt</string>
+    <string name="txtAll">Allt</string>
+    <string name="txtMutitouchPass">Multitouch fungerar bra.</string>
+    <string name="txtHomeButtonPass">Hemknappen fungerar bra.</string>
+    <string name="txtPowerPass">Strömbrytare Arbets</string>
+    <string name="txtFullyManual">Manuell</string>
+    <string name="txtSemiAutomatic">halvautomatisk</string>
+    <string name="textExpertDesc">Du är nu i expertläget och kan utföra nedanstående tester slumpmässigt utan att följa någon sekvens.</string>
+    <string name="txtManualVolumeUp">Sänk volymen</string>
+    <string name="txtManualVolumeDown">Höj volymen</string>
+    <!-- <string name="txtManualAboutUsScreen">
+         <![CDATA[
+
+  <p style="text-align:justify">FairWorld IT Solutions är en professionell programvara organisation som erbjuder högkvalitativa lösningar till företag. Det tjänster informationstekniska krav företag som sträcker sig från Fortune 100 till medelstora företag genom att utnyttja specialkunskaper domän, best-of-breed teknik, snabbt kan sättas in egna ramar / lösningar och flexibelt engagemang modeller.</p>
+  <p style="text-align:justify">FairWorld IT Solutions grundades i början av 2015 och är baserat i staden vackra Chandigarh, Indien, är MegaMMR Software en pålitlig resurs för många företag runt om i världen för Märke / Modell programvara erkännande som kan integreras i alla detaljhandeln eller online solution.Our produkt används för att extrahera märke, modell, IMEI och annan relevant information från alla iOS eller Android-baserade smartphones. Denna information används dessutom i ett flertal handels i Retail och online-platser av kunden att återvinna sin telefon.</p>
+  <p style="text-align:justify">MegaMMR är heckle gratis, lätt att använda och lätt att installera program. En gång installerat allt du behöver göra är att ansluta telefonen till en USB-kabel och MegaMMR gör resten. Det extrakt magiskt märke, modell, IMEI och annan relevant information från telefonen.</p>
+ ]]>
+
+
+     </string>-->
+    <string name="txtManualAboutUsScreen">
+         <![CDATA[
+
+ <p style="text-align:justify">Veridic Technologies har sedan 2010 arbetat som en fullservice IT-konsult- och lösningspartner som är dedikerad till att maximera tillväxten av begagnade mobila företag över hela världen. Våra kunder omfattar företag, små och medelstora företag och startups från återförsäljare, grossister, distributörer, telekomoperatörer, handelsleverantörer, lagerleverantörer och mobilåtervinnare.
+</p>
+ <p style="text-align:justify">Ursprungligen byggd som ett outsourcingfirma för Brightstar Corporation (ett 10 miljarder dollar) av Mr. Ankur Thakur, nu har Veridic stigit för att bli ett internationellt känt varumärke. Vi har ett engagerat team av experter, medarbetare på mellannivå och juniornivå 150+ från 2 kontor, Indien och Storbritannien.</p>
+ <p style="text-align:justify">Några av de värderade användarna av våra produkter och lösningar är Brightstar, Belmont, Apple, Vodafone, EE, Claro, Telcel, Telecom Italia, T Mobile, som enheter som använder våra lösningar.</p>
+ <p style="text-align:justify">Obs! Veridic Technologies förbehåller sig alla rättigheter för CellDe mCheck2.0
+ -applikationen. Eventuell obehörig kopiering, utskrift, reproduktion, spridning, distribution i någon form är strängt förbjuden.</p>
+]]>
+     </string>
+    <string name="txtFurtherDetail">För ytterligare detaljer, Kontakta oss på:</string>
+    <string name="txtFurtherDetailUrl">https://fairworld.in</string>
+    <string name="txtProductionDetail">För produktions information Kontakta oss på:</string>
+    <string name="txtProductionDetailUrl">https://megammr.com</string>
+    <string name="txtRetake">Ta om</string>
+    <string name="txtPictureSaved">bild sparas</string>
+    <string name="txtNotAvailable">Inte tillgänglig</string>
+    <string name="MessageProgressCamera">Spara Bild</string>
+    <string name="txtAgree">Hålla med</string>
+    <string name="txtDisagree">Instämmer inte alls</string>
+    <string name="txtPassword">TWVnYU1NUjk4NzY1NDMyMQ==</string>
+    <string name="txtNotSyncData">Data synkroniseras inte</string>
+    <string name="txtSyncedData">Data Synkroniserad</string>
+    <string name="txtLastSync">Senast synkroniserad på :</string>
+    <string name="txtLoading">Läser in</string>
+    <string name="txtAlertTermsAndCondition">MCheck2.0 måste hämta enheten information inklusive IMEI och serienummer och överlämna dem till partnerns webbplats i syfte att utvärdera din enhet. Genom att klicka på acceptera knapp du går med på att MCheck2.0 att hämta den information som krävs från enheten</string>
+    <string name="txtAccept">Acceptera</string>
+    <string name="txtDecline">Nedgång</string>
+    <string name="txtNoDataReceived">Ingen data mottagen</string>
+    <string name="txtScanMe">Skanna mig</string>
+    <string name="txtOrUse">Eller Använd</string>
+    <string name="txtGetNew">Få ny</string>
+    <string name="txtOr">Eller</string>
+    <string name="txtEnterPassword">Skriv in lösenord</string>
+    <string name="txtNotAuthorize">Du är inte auktoriserad</string>
+    <string name="txtTryAfterSomeTimeError">Vänligen försök efter en tid</string>
+    <string name="txtAuthorize">Tillstånd</string>
+    <string name="txtEnterPasswordTitle">Skriv in lösenord</string>
+    <string name="txtDone">Gjort</string>
+    <string name="txtNotOk">Inte ok</string>
+    <string name="txtOk">Ok</string>
+    <string name="txtStop">Sluta</string>
+    <string name="txtMicokNotOkText">Om du kunde höra inspelad röst korrekt, vänligen tryck på OK-knappen för att klara testet. Annars, tryck inte ok-knappen.</string>
+    <string name="txtSpeakerokNotOkText">Om du kunde höra musiken spelas ordentligt, vänligen tryck på OK-knappen för att klara testet. Annars, tryck inte ok-knappen</string>
+    <string name="txtMicStopDescription">Vänligen tryck på Stop-knappen om du har avslutat inspelningen</string>
+    <string name="txtNo">Nej</string>
+    <string name="txtYes">Ja</string>
+    <string name="txtInternetIssueReopenApp">Vänligen kontrollera din Internet-anslutning och åter öppna appen</string>
+    <string name="txtCancel">Annullera</string>
+    <string name="txtEnterPwd">Skriv in lösenord</string>
+    <string name="txtIAccept">Jag håller med</string>
+    <string name="txtRemoveMe">Ta bort mig</string>
+    <string name="txtPasswordCancelScreen">MegaMMR behöver verifiera dig innan du tillåter dig i appen. Försök igen med ett giltigt lösenord.</string>
+    <string name="txtExceptions">undantag</string>
+    <string name="txtUDI">UDI</string>
+    <string name="txtMethodName">Metodnamn</string>
+    <string name="txtTimeStamp">Tidsstämpel</string>
+    <string name="txtExceptionsDetail">Undantagsdetalj</string>
+    <string name="txtExceptionDetail">Undantagsdetalj</string>
+    <string name="txtStackTrace">Stack Trace</string>
+    <string name="hello_blank_fragment">Hej tomt fragment</string>
+    <string name="txtManualSemiAutomatic">Semi automatique</string>
+    <string name="txtManualTestScreen">Manuell</string>
+    <string name="txtBarcode">Streckkodssökning</string>
+    <string name="txtGetBarCode">Få streckkod</string>
+    <string name="txtCompleteOrderStore">Complete Order InStore</string>
+    <string name="txtCompleteOrderHere">Complete Order Here</string>
+    <string name="txtLogin">Login</string>
+    <string name="txtChannelCode">Channel Code</string>
+    <string name="txtStoreCode">Store Code</string>
+    <string name="txtEnterChannelCode">Enter Channel Code</string>
+    <string name="txtEnterStoreCode">Enter Store Code</string>
+    <string name="txtDeviceCasingTest">Is device case is alright?</string>
+    <string name="DeviceCasing">Device Casing</string>
+    <string name="flashtestqstn">Blinkade Flash 3 gånger?</string>
+    <string name="txtMicPlayInstructions">Vänligen tryck på spelikonet för att höra din inspelade röst.</string>
+    <string name="txtSystemStorageAvailable">Tillgänglig systemlagring</string>
+    <string name="flashlight">ficklampa</string>
+    <string name="flash">blixt</string>
+    <string name="compass">Kompass</string>
+    <string name="fingerprint">Fingeravtryck</string>
+    <string name="acclerometer">Accelerometer</string>
+    <string name="fingerprintsensortest">FingerPrint Sensortest</string>
+    <string name="placefinger">Placera fingret på fingeravtryckssensorn</string>
+    <string name="acctest">flytta telefonen längs x y z axeln</string>
+    <string name="compassdesc">Vrid telefonen horisontellt på sin axel.</string>
+    <string name="nofingerconfigured">No fingerprint configured. Please register at least one fingerprint in your device\'s Settings.</string>
+    <string name="personaluse">Personal Use</string>
+    <string name="corporate">Corporate</string>
+    <string name="fingerlimit">Test Limit Exceeded</string>
+
+</resources>

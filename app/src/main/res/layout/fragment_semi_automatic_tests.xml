@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.officework.testing_profiles.ui.fragment.SemiAutomaticTestsFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/gridViewSemiAutomatic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"
+        android:scrollbarSize="2dp"
+        android:scrollbarThumbVertical="@drawable/scrollcolor"
+        android:scrollbars="vertical" />
+
+</FrameLayout>

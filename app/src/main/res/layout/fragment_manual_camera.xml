@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayoutCamera"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/Widget.TextViewHeadingNormal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:padding="@dimen/basic_padding"
+            android:text="@string/txtTitleCamera" />
+
+
+        <!--<LinearLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" />-->
+        <FrameLayout
+            android:id="@+id/rlCameraPreview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Black"
+            android:layout_gravity="center">
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imgClose"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_gravity="left|bottom"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="@dimen/basic_padding"
+            android:src="@drawable/ic__cam_cancel" />
+        <ImageView
+            android:id="@+id/imgClickPic"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/camera_click_image" />
+
+        <TextView
+            android:id="@+id/txtViewCount"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:textColor="@color/product_gray"
+            android:textSize="100sp" />
+
+        <RelativeLayout
+            android:id="@+id/layoutImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/contTimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="120dp" />
+
+            <ImageView
+                android:id="@+id/imgViewFrontCam"
+                android:layout_width="144dp"
+                android:layout_height="144dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@+id/contTimer"
+                android:layout_toRightOf="@+id/contTimer"
+                android:src="@drawable/ic_person" />
+
+            <ImageView
+                android:id="@+id/imgViewBackCam"
+                android:layout_width="144dp"
+                android:layout_height="144dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/imgViewFrontCam"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:src="@drawable/ic_person" />
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/layoutImagePreview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/imgViewPreview"
+                android:layout_width="244dp"
+                android:layout_height="244dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_person" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/Black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/imgRetake"
+                        style="@style/Text_Normal"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="@dimen/basic_padding"
+                        android:text="@string/txtRetake"
+                        android:textColor="@color/Black" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/Black" />
+
+                    <TextView
+                        android:id="@+id/imgOk"
+                        style="@style/Text_Normal"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="@dimen/basic_padding"
+                        android:text="@string/txtConfirm"
+                        android:textColor="@color/Black" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </FrameLayout>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btnNext"
+        style="@style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/textSkip"
+        android:visibility="gone" />
+
+
+
+    <RelativeLayout
+        android:id="@+id/camera_desRL"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="match_parent">
+
+
+        <com.officework.customViews.IconView
+            android:layout_width="135dp"
+            android:layout_height="135dp"
+            app:srcCompat="@drawable/ic_camera_svg"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imgd"
+            android:layout_marginTop="@dimen/_30dp"
+            />
+
+
+        <TextView
+            android:layout_below="@+id/imgd"
+            android:id="@+id/camera_desTV"
+            android:layout_width="match_parent"
+            android:layout_centerHorizontal="true"
+            android:text="@string/camera_new_des"
+            android:gravity="center"
+            android:padding="@dimen/_10dp"
+            android:textSize="@dimen/text_normal"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"
+            android:layout_marginTop="@dimen/_30dp"
+            >
+
+        </TextView>
+        <com.officework.customViews.CustomButton
+
+            android:id="@+id/camera_yesTV"
+            style="@style/Widget.TextViewHeadingNormalText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/camera_desTV"
+            android:layout_centerHorizontal="true"
+            android:background="@color/app_blue_color"
+            android:text="@string/txtStart"
+            android:textSize="@dimen/about_us"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/_30dp"
+            />
+
+
+
+
+
+    </RelativeLayout>
+</RelativeLayout>
